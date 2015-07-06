@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Алексей/AndroidStudioProjects/LazyList-master1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Button">Обновить список новостей</string>
+    <string name="action_settings">(С) Алексей Федоров 2015</string>
+    <string name="app_name">Последние новости</string>
+    <string name="hello">Hello World, MainActivity!</string>
+</resources>

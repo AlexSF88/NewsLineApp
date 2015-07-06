@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/refresh" android:title="@string/refresh"
+        android:orderInCategory="10" />
+    <item android:id="@+id/favourites" android:title="@string/favourites"
+        android:orderInCategory="20" />
+</menu>
+
+<!-- From: file:/C:/Users/Алексей/AndroidStudioProjects/LazyList-master1/app/src/main/res/menu/menu_main.xml -->

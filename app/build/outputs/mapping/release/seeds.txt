@@ -1,0 +1,15 @@
+com.main.R$drawable: int icon
+com.main.R$drawable: int stub
+com.main.R$id: int button1
+com.main.R$id: int image
+com.main.R$id: int list
+com.main.R$id: int text
+com.main.R$layout: int item
+com.main.R$layout: int main
+com.main.R$menu: int menu_main
+com.main.R$string: int Button
+com.main.R$string: int action_settings
+com.main.R$string: int app_name
+com.main.R$string: int hello
+main.MainActivity
+main.MainActivity: MainActivity()

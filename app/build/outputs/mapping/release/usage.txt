@@ -1,0 +1,34 @@
+com.main.BuildConfig
+com.main.R
+com.main.R$attr
+com.main.R$drawable
+com.main.R$id
+com.main.R$layout
+com.main.R$menu
+com.main.R$string
+main.Controller.SqlAdapter:
+    private static final java.lang.String DB_NAME
+    private static final java.lang.String DATABASE_TABLE
+    private static final int DB_VERSION
+    private static final java.lang.String KEY_ID
+    private static final int ID_COLUMN
+    private static final java.lang.String KEY_TITLE
+    private static final int TITLE_COLUMN
+    private static final java.lang.String KEY_IMG_URL
+    private static final int IMG_URL_COLUMN
+    private main.Model.News[] news
+    97:104:public main.Model.News[] getAll()
+    123:126:public boolean removeItem(main.Model.News)
+    134:138:public boolean updateItem(long,java.lang.String)
+    142:143:public void onDestroy()
+main.MainActivity:
+    56:56:public int getMaxNews()
+    60:61:public void setMaxNews(int)
+main.Model.MemoryCache:
+    private static final java.lang.String TAG
+main.Model.News:
+    23:24:public void setId(long)
+    31:32:public void setTitle(java.lang.String)
+    39:40:public void setImg_url(java.lang.String)
+main.Model.Utils:
+    6:6:public Utils()

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Последние новости</string>
+    <string name="Button">Обновить список новостей</string>
+    <string name="action_settings">(С) Алексей Федоров, 2015</string>
+    <string name="news_title">Статья</string>
+    <string name="refresh">Обновить ленту</string>
+    <string name="favourites">Избранное</string>
+</resources>

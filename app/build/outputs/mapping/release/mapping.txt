@@ -1,0 +1,107 @@
+main.Controller.LazyAdapter -> main.a.a:
+    android.app.Activity activity -> b
+    java.util.ArrayList img_url -> c
+    java.util.ArrayList titles -> d
+    android.view.LayoutInflater inflater -> e
+    main.Model.ImageLoader imageLoader -> a
+    android.content.Context context -> f
+    void addNews(java.util.ArrayList) -> a
+    void removeAll() -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+main.Controller.SqlAdapter -> main.a.b:
+    android.database.Cursor cursor -> a
+    android.database.sqlite.SQLiteDatabase database -> b
+    main.Controller.SqlAdapter$DbOpenHelper dbOpenHelper -> c
+    android.content.Context context -> d
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    int getCount() -> getCount
+    main.Model.News getItem(int) -> a
+    android.database.Cursor getAllEntries() -> a
+    long addItem(main.Model.News) -> a
+    void addNews(java.util.ArrayList) -> a
+    void removeAllItems() -> b
+    void refresh() -> c
+    void init() -> d
+    java.lang.Object getItem(int) -> getItem
+main.Controller.SqlAdapter$DbOpenHelper -> main.a.c:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+main.MainActivity -> main.MainActivity:
+    android.widget.ListView list -> a
+    main.Controller.LazyAdapter lazyAdapter -> b
+    main.Controller.SqlAdapter sqlAdapter -> c
+    java.lang.String LOG_TAG -> d
+    java.util.ArrayList news -> f
+    int maxNews -> g
+    android.view.View$OnClickListener listener -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean dowloadFromBDTask() -> a
+    void onDestroy() -> onDestroy
+    java.util.ArrayList access$100(main.MainActivity) -> a
+    int access$200(main.MainActivity) -> b
+main.MainActivity$1 -> main.a:
+    main.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+main.MainActivity$ParseTask -> main.b:
+    java.net.HttpURLConnection urlConnection -> a
+    java.io.BufferedReader reader -> b
+    java.lang.String resultJson -> c
+    main.MainActivity this$0 -> d
+    java.lang.String doInBackground(java.lang.Void[]) -> a
+    void onPostExecute(java.lang.String) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+main.Model.FileCache -> main.b.a:
+    java.io.File cacheDir -> a
+    java.io.File getFile(java.lang.String) -> a
+    void clear() -> a
+main.Model.ImageLoader -> main.b.b:
+    main.Model.MemoryCache memoryCache -> a
+    main.Model.FileCache fileCache -> b
+    java.util.Map imageViews -> f
+    java.util.concurrent.ExecutorService executorService -> c
+    android.os.Handler handler -> d
+    int stub_id -> e
+    void DisplayImage(java.lang.String,android.widget.ImageView) -> a
+    void queuePhoto(java.lang.String,android.widget.ImageView) -> b
+    android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    android.graphics.Bitmap decodeFile(java.io.File) -> a
+    boolean imageViewReused(main.Model.ImageLoader$PhotoToLoad) -> a
+    void clearCache() -> a
+    android.graphics.Bitmap access$000(main.Model.ImageLoader,java.lang.String) -> a
+main.Model.ImageLoader$BitmapDisplayer -> main.b.c:
+    android.graphics.Bitmap bitmap -> a
+    main.Model.ImageLoader$PhotoToLoad photoToLoad -> b
+    main.Model.ImageLoader this$0 -> c
+    void run() -> run
+main.Model.ImageLoader$PhotoToLoad -> main.b.d:
+    java.lang.String url -> a
+    android.widget.ImageView imageView -> b
+    main.Model.ImageLoader this$0 -> c
+main.Model.ImageLoader$PhotosLoader -> main.b.e:
+    main.Model.ImageLoader$PhotoToLoad photoToLoad -> a
+    main.Model.ImageLoader this$0 -> b
+    void run() -> run
+main.Model.MemoryCache -> main.b.f:
+    java.util.Map cache -> a
+    long size -> b
+    long limit -> c
+    void setLimit(long) -> a
+    android.graphics.Bitmap get(java.lang.String) -> a
+    void put(java.lang.String,android.graphics.Bitmap) -> a
+    void checkSize() -> b
+    void clear() -> a
+    long getSizeInBytes(android.graphics.Bitmap) -> a
+main.Model.News -> main.b.g:
+    long id -> a
+    java.lang.String title -> b
+    java.lang.String img_url -> c
+    long getId() -> a
+    java.lang.String getTitle() -> b
+    java.lang.String getImg_url() -> c
+main.Model.Utils -> main.b.h:
+    void CopyStream(java.io.InputStream,java.io.OutputStream) -> a

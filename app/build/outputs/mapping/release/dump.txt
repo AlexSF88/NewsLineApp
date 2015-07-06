@@ -1,0 +1,4178 @@
+_____________________________________________________________________
++ Program class: main/a/a
+  Superclass:    android/widget/BaseAdapter
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.a.a extends android.widget.BaseAdapter
+
+Interfaces (count = 0):
+
+Constant Pool (count = 134):
+  + Integer [2130903040]
+  + Integer [2131099648]
+  + Integer [2131099649]
+  + String [layout_inflater]
+  + Class [android/app/Activity]
+  + Class [android/view/LayoutInflater]
+  + Class [android/view/View]
+  + Class [android/widget/BaseAdapter]
+  + Class [android/widget/ImageView]
+  + Class [android/widget/TextView]
+  + Class [java/lang/CharSequence]
+  + Class [java/lang/Integer]
+  + Class [java/lang/String]
+  + Class [java/util/ArrayList]
+  + Class [java/util/Iterator]
+  + Class [main/a/a]
+  + Class [main/b/b]
+  + Class [main/b/g]
+  + Fieldref [main/a/a.a Lmain/b/b;]
+  + Fieldref [main/a/a.b Landroid/app/Activity;]
+  + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+  + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+  + Fieldref [main/a/a.e Landroid/view/LayoutInflater;]
+  + Fieldref [main/a/a.f Landroid/content/Context;]
+  + Methodref [android/app/Activity.getApplicationContext ()Landroid/content/Context;]
+  + Methodref [android/app/Activity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+  + Methodref [android/widget/BaseAdapter.<init> ()V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [java/util/ArrayList.clear ()V]
+  + Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+  + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+  + Methodref [java/util/ArrayList.size ()I]
+  + Methodref [main/b/b.<init> (Landroid/content/Context;)V]
+  + Methodref [main/b/b.a (Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Methodref [main/b/g.b ()Ljava/lang/String;]
+  + Methodref [main/b/g.c ()Ljava/lang/String;]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [a (Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + NameAndType [a Lmain/b/b;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [b Landroid/app/Activity;]
+  + NameAndType [c ()Ljava/lang/String;]
+  + NameAndType [c Ljava/util/ArrayList;]
+  + NameAndType [clear ()V]
+  + NameAndType [d Ljava/util/ArrayList;]
+  + NameAndType [e Landroid/view/LayoutInflater;]
+  + NameAndType [f Landroid/content/Context;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [getApplicationContext ()Landroid/content/Context;]
+  + NameAndType [getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [size ()I]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)J]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/view/LayoutInflater;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/LayoutInflater]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/BaseAdapter]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [clear]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [get]
+  + Utf8 [getApplicationContext]
+  + Utf8 [getCount]
+  + Utf8 [getItem]
+  + Utf8 [getItemId]
+  + Utf8 [getSystemService]
+  + Utf8 [getView]
+  + Utf8 [hasNext]
+  + Utf8 [inflate]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/CharSequence]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [layout_inflater]
+  + Utf8 [main/a/a]
+  + Utf8 [main/b/b]
+  + Utf8 [main/b/g]
+  + Utf8 [next]
+  + Utf8 [setText]
+  + Utf8 [size]
+  + Utf8 [valueOf]
+
+Fields (count = 6):
+  + Field:        b Landroid/app/Activity;
+    Access flags: 0x2
+      = private android.app.Activity b
+  + Field:        c Ljava/util/ArrayList;
+    Access flags: 0x2
+      = private java.util.ArrayList c
+  + Field:        d Ljava/util/ArrayList;
+    Access flags: 0x2
+      = private java.util.ArrayList d
+  + Field:        e Landroid/view/LayoutInflater;
+    Access flags: 0xa
+      = private static android.view.LayoutInflater e
+  + Field:        a Lmain/b/b;
+    Access flags: 0x1
+      = public main.b.b a
+  + Field:        f Landroid/content/Context;
+    Access flags: 0x2
+      = private android.content.Context f
+
+Methods (count = 8):
+  - Method:       <init>(Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V
+    Access flags: 0x1
+      = public a(android.app.Activity,java.util.ArrayList,android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 127, locals = 6, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #29
+        + Methodref [android/widget/BaseAdapter.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #20
+        + Fieldref [main/a/a.b Landroid/app/Activity;]
+      [9] aload_0 v0
+      [10] new #14
+        + Class [java/util/ArrayList]
+      [13] dup
+      [14] invokespecial #32
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [17] putfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [20] aload_0 v0
+      [21] new #14
+        + Class [java/util/ArrayList]
+      [24] dup
+      [25] invokespecial #32
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [28] putfield #22
+        + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+      [31] aload_2 v2
+      [32] invokevirtual #36
+        + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+      [35] astore v4
+      [37] aload v4
+      [39] invokeinterface #42, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [44] ifeq +44 (target=88)
+      [47] aload v4
+      [49] invokeinterface #43, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [54] checkcast #18
+        + Class [main/b/g]
+      [57] astore v5
+      [59] aload_0 v0
+      [60] getfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [63] aload v5
+      [65] invokevirtual #41
+        + Methodref [main/b/g.c ()Ljava/lang/String;]
+      [68] invokevirtual #33
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [71] pop
+      [72] aload_0 v0
+      [73] getfield #22
+        + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+      [76] aload v5
+      [78] invokevirtual #40
+        + Methodref [main/b/g.b ()Ljava/lang/String;]
+      [81] invokevirtual #33
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [84] pop
+      [85] goto -48 (target=37)
+      [88] aload_0 v0
+      [89] getfield #20
+        + Fieldref [main/a/a.b Landroid/app/Activity;]
+      [92] ldc #4
+        + String [layout_inflater]
+      [94] invokevirtual #26
+        + Methodref [android/app/Activity.getSystemService (Ljava/lang/String;)Ljava/lang/Object;]
+      [97] checkcast #6
+        + Class [android/view/LayoutInflater]
+      [100] putstatic #23
+        + Fieldref [main/a/a.e Landroid/view/LayoutInflater;]
+      [103] aload_0 v0
+      [104] new #17
+        + Class [main/b/b]
+      [107] dup
+      [108] aload_0 v0
+      [109] getfield #20
+        + Fieldref [main/a/a.b Landroid/app/Activity;]
+      [112] invokevirtual #25
+        + Methodref [android/app/Activity.getApplicationContext ()Landroid/content/Context;]
+      [115] invokespecial #38
+        + Methodref [main/b/b.<init> (Landroid/content/Context;)V]
+      [118] putfield #19
+        + Fieldref [main/a/a.a Lmain/b/b;]
+      [121] aload_0 v0
+      [122] aload_3 v3
+      [123] putfield #24
+        + Fieldref [main/a/a.f Landroid/content/Context;]
+      [126] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/util/ArrayList;)V
+    Access flags: 0x1
+      = public void a(java.util.ArrayList)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] invokevirtual #36
+        + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] invokeinterface #42, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [11] ifeq +40 (target=51)
+      [14] aload_2 v2
+      [15] invokeinterface #43, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [20] checkcast #18
+        + Class [main/b/g]
+      [23] astore_3 v3
+      [24] aload_0 v0
+      [25] getfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [28] aload_3 v3
+      [29] invokevirtual #41
+        + Methodref [main/b/g.c ()Ljava/lang/String;]
+      [32] invokevirtual #33
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [35] pop
+      [36] aload_0 v0
+      [37] getfield #22
+        + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+      [40] aload_3 v3
+      [41] invokevirtual #40
+        + Methodref [main/b/g.b ()Ljava/lang/String;]
+      [44] invokevirtual #33
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [47] pop
+      [48] goto -43 (target=5)
+      [51] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [4] invokevirtual #34
+        + Methodref [java/util/ArrayList.clear ()V]
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+      [11] invokevirtual #34
+        + Methodref [java/util/ArrayList.clear ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCount()I
+    Access flags: 0x1
+      = public int getCount()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [4] invokevirtual #37
+        + Methodref [java/util/ArrayList.size ()I]
+      [7] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItem(I)Ljava/lang/Object;
+    Access flags: 0x1
+      = public java.lang.Object getItem(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 2, stack = 1):
+      [0] iload_1 v1
+      [1] invokestatic #31
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItemId(I)J
+    Access flags: 0x1
+      = public long getItemId(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 3, locals = 2, stack = 2):
+      [0] iload_1 v1
+      [1] i2l
+      [2] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 81, locals = 7, stack = 3):
+      [0] aload_2 v2
+      [1] astore v4
+      [3] aload_2 v2
+      [4] ifnonnull +14 (target=18)
+      [7] getstatic #23
+        + Fieldref [main/a/a.e Landroid/view/LayoutInflater;]
+      [10] ldc #1
+        + Integer [2130903040]
+      [12] aconst_null
+      [13] invokevirtual #27
+        + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [16] astore v4
+      [18] aload v4
+      [20] ldc #3
+        + Integer [2131099649]
+      [22] invokevirtual #28
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [25] checkcast #10
+        + Class [android/widget/TextView]
+      [28] astore v5
+      [30] aload v4
+      [32] ldc #2
+        + Integer [2131099648]
+      [34] invokevirtual #28
+        + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
+      [37] checkcast #9
+        + Class [android/widget/ImageView]
+      [40] astore v6
+      [42] aload v5
+      [44] aload_0 v0
+      [45] getfield #22
+        + Fieldref [main/a/a.d Ljava/util/ArrayList;]
+      [48] iload_1 v1
+      [49] invokevirtual #35
+        + Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [52] checkcast #11
+        + Class [java/lang/CharSequence]
+      [55] invokevirtual #30
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [58] aload_0 v0
+      [59] getfield #19
+        + Fieldref [main/a/a.a Lmain/b/b;]
+      [62] aload_0 v0
+      [63] getfield #21
+        + Fieldref [main/a/a.c Ljava/util/ArrayList;]
+      [66] iload_1 v1
+      [67] invokevirtual #35
+        + Methodref [java/util/ArrayList.get (I)Ljava/lang/Object;]
+      [70] checkcast #13
+        + Class [java/lang/String]
+      [73] aload v6
+      [75] invokevirtual #39
+        + Methodref [main/b/b.a (Ljava/lang/String;Landroid/widget/ImageView;)V]
+      [78] aload v4
+      [80] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 0, stack = 1):
+      [0] aconst_null
+      [1] putstatic #23
+        + Fieldref [main/a/a.e Landroid/view/LayoutInflater;]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/a/b
+  Superclass:    android/widget/BaseAdapter
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.a.b extends android.widget.BaseAdapter
+
+Interfaces (count = 0):
+
+Constant Pool (count = 178):
+  + Integer [2130903040]
+  + String [Cant move cursor to postion]
+  + String [DB]
+  + String [Error while getting database]
+  + String [The end]
+  + String [_id]
+  + String [img_url]
+  + String [news]
+  + String [title]
+  + Class [android/content/ContentValues]
+  + Class [android/database/Cursor]
+  + Class [android/database/CursorIndexOutOfBoundsException]
+  + Class [android/database/SQLException]
+  + Class [android/database/sqlite/SQLiteDatabase]
+  + Class [android/util/Log]
+  + Class [android/view/View]
+  + Class [android/widget/BaseAdapter]
+  + Class [android/widget/TextView]
+  + Class [java/lang/Error]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/util/ArrayList]
+  + Class [java/util/Iterator]
+  + Class [main/a/b]
+  + Class [main/a/c]
+  + Class [main/b/g]
+  + Fieldref [main/a/b.a Landroid/database/Cursor;]
+  + Fieldref [main/a/b.b Landroid/database/sqlite/SQLiteDatabase;]
+  + Fieldref [main/a/b.c Lmain/a/c;]
+  + Fieldref [main/a/b.d Landroid/content/Context;]
+  + Methodref [android/content/ContentValues.<init> ()V]
+  + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [android/database/CursorIndexOutOfBoundsException.<init> (Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/view/View.inflate (Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Methodref [android/widget/BaseAdapter.<init> ()V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [java/lang/Error.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+  + Methodref [main/a/b.a ()Landroid/database/Cursor;]
+  + Methodref [main/a/b.a (I)Lmain/b/g;]
+  + Methodref [main/a/b.a (Lmain/b/g;)J]
+  + Methodref [main/a/b.c ()V]
+  + Methodref [main/a/b.d ()V]
+  + Methodref [main/a/b.notifyDataSetChanged ()V]
+  + Methodref [main/a/c.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Methodref [main/a/c.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + Methodref [main/b/g.<init> (JLjava/lang/String;Ljava/lang/String;)V]
+  + Methodref [main/b/g.a ()J]
+  + Methodref [main/b/g.b ()Ljava/lang/String;]
+  + Methodref [main/b/g.c ()Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.getCount ()I]
+  + InterfaceMethodref [android/database/Cursor.getLong (I)J]
+  + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+  + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (JLjava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [a ()J]
+  + NameAndType [a ()Landroid/database/Cursor;]
+  + NameAndType [a (I)Lmain/b/g;]
+  + NameAndType [a (Lmain/b/g;)J]
+  + NameAndType [a Landroid/database/Cursor;]
+  + NameAndType [b ()Ljava/lang/String;]
+  + NameAndType [b Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [c ()Ljava/lang/String;]
+  + NameAndType [c ()V]
+  + NameAndType [c Lmain/a/c;]
+  + NameAndType [d ()V]
+  + NameAndType [d Landroid/content/Context;]
+  + NameAndType [delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + NameAndType [e (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [getCount ()I]
+  + NameAndType [getLong (I)J]
+  + NameAndType [getString (I)Ljava/lang/String;]
+  + NameAndType [getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [inflate (Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + NameAndType [insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [moveToPosition (I)Z]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [notifyDataSetChanged ()V]
+  + NameAndType [put (Ljava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()J]
+  + Utf8 [()Landroid/database/Cursor;]
+  + Utf8 [()Landroid/database/sqlite/SQLiteDatabase;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)J]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)Lmain/b/g;]
+  + Utf8 [(I)Z]
+  + Utf8 [(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(JLjava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [(Lmain/b/g;)J]
+  + Utf8 [<init>]
+  + Utf8 [Cant move cursor to postion]
+  + Utf8 [Code]
+  + Utf8 [DB]
+  + Utf8 [Error while getting database]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/database/Cursor;]
+  + Utf8 [Landroid/database/sqlite/SQLiteDatabase;]
+  + Utf8 [Lmain/a/c;]
+  + Utf8 [The end]
+  + Utf8 [_id]
+  + Utf8 [a]
+  + Utf8 [android/content/ContentValues]
+  + Utf8 [android/database/Cursor]
+  + Utf8 [android/database/CursorIndexOutOfBoundsException]
+  + Utf8 [android/database/SQLException]
+  + Utf8 [android/database/sqlite/SQLiteDatabase]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/View]
+  + Utf8 [android/widget/BaseAdapter]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [delete]
+  + Utf8 [e]
+  + Utf8 [getCount]
+  + Utf8 [getItem]
+  + Utf8 [getItemId]
+  + Utf8 [getLong]
+  + Utf8 [getString]
+  + Utf8 [getView]
+  + Utf8 [getWritableDatabase]
+  + Utf8 [hasNext]
+  + Utf8 [img_url]
+  + Utf8 [inflate]
+  + Utf8 [insert]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/Error]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [main/a/b]
+  + Utf8 [main/a/c]
+  + Utf8 [main/b/g]
+  + Utf8 [moveToPosition]
+  + Utf8 [news]
+  + Utf8 [next]
+  + Utf8 [notifyDataSetChanged]
+  + Utf8 [put]
+  + Utf8 [query]
+  + Utf8 [setText]
+  + Utf8 [title]
+  + Utf8 [toString]
+
+Fields (count = 4):
+  + Field:        a Landroid/database/Cursor;
+    Access flags: 0x2
+      = private android.database.Cursor a
+  + Field:        b Landroid/database/sqlite/SQLiteDatabase;
+    Access flags: 0x2
+      = private android.database.sqlite.SQLiteDatabase b
+  + Field:        c Lmain/a/c;
+    Access flags: 0x2
+      = private main.a.c c
+  + Field:        d Landroid/content/Context;
+    Access flags: 0x2
+      = private android.content.Context d
+
+Methods (count = 12):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public b(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #39
+        + Methodref [android/widget/BaseAdapter.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] putfield #30
+        + Fieldref [main/a/b.d Landroid/content/Context;]
+      [9] aload_0 v0
+      [10] invokespecial #48
+        + Methodref [main/a/b.d ()V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItemId(I)J
+    Access flags: 0x1
+      = public long getItemId(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] invokevirtual #45
+        + Methodref [main/a/b.a (I)Lmain/b/g;]
+      [5] astore_2 v2
+      [6] aload_2 v2
+      [7] invokevirtual #53
+        + Methodref [main/b/g.a ()J]
+      [10] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 45, locals = 5, stack = 3):
+      [0] aconst_null
+      [1] aload_2 v2
+      [2] ifacmpne +21 (target=23)
+      [5] aload_0 v0
+      [6] getfield #30
+        + Fieldref [main/a/b.d Landroid/content/Context;]
+      [9] ldc #1
+        + Integer [2130903040]
+      [11] aconst_null
+      [12] invokestatic #38
+        + Methodref [android/view/View.inflate (Landroid/content/Context;ILandroid/view/ViewGroup;)Landroid/view/View;]
+      [15] checkcast #18
+        + Class [android/widget/TextView]
+      [18] astore v4
+      [20] goto +9 (target=29)
+      [23] aload_2 v2
+      [24] checkcast #18
+        + Class [android/widget/TextView]
+      [27] astore v4
+      [29] aload v4
+      [31] aload_0 v0
+      [32] iload_1 v1
+      [33] invokevirtual #45
+        + Methodref [main/a/b.a (I)Lmain/b/g;]
+      [36] invokevirtual #54
+        + Methodref [main/b/g.b ()Ljava/lang/String;]
+      [39] invokevirtual #40
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [42] aload v4
+      [44] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       getCount()I
+    Access flags: 0x1
+      = public int getCount()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [4] invokeinterface #56, 256
+        + InterfaceMethodref [android/database/Cursor.getCount ()I]
+      [9] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)Lmain/b/g;
+    Access flags: 0x1
+      = public main.b.g a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 75, locals = 7, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [4] iload_1 v1
+      [5] invokeinterface #59, 512
+        + InterfaceMethodref [android/database/Cursor.moveToPosition (I)Z]
+      [10] ifeq +55 (target=65)
+      [13] aload_0 v0
+      [14] getfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [17] iconst_0
+      [18] invokeinterface #57, 512
+        + InterfaceMethodref [android/database/Cursor.getLong (I)J]
+      [23] lstore_2 v2
+      [24] aload_0 v0
+      [25] getfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [28] iconst_1
+      [29] invokeinterface #58, 512
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [34] astore v4
+      [36] aload_0 v0
+      [37] getfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [40] iconst_2
+      [41] invokeinterface #58, 512
+        + InterfaceMethodref [android/database/Cursor.getString (I)Ljava/lang/String;]
+      [46] astore v5
+      [48] new #26
+        + Class [main/b/g]
+      [51] dup
+      [52] lload_2 v2
+      [53] aload v5
+      [55] aload v4
+      [57] invokespecial #52
+        + Methodref [main/b/g.<init> (JLjava/lang/String;Ljava/lang/String;)V]
+      [60] astore v6
+      [62] aload v6
+      [64] areturn
+      [65] new #12
+        + Class [android/database/CursorIndexOutOfBoundsException]
+      [68] dup
+      [69] ldc #2
+        + String [Cant move cursor to postion]
+      [71] invokespecial #33
+        + Methodref [android/database/CursorIndexOutOfBoundsException.<init> (Ljava/lang/String;)V]
+      [74] athrow
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Landroid/database/Cursor;
+    Access flags: 0x1
+      = public android.database.Cursor a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 37, locals = 2, stack = 8):
+      [0] iconst_3
+      [1] anewarray #21
+        + Class [java/lang/String]
+      [4] dup
+      [5] iconst_0
+      [6] ldc #6
+        + String [_id]
+      [8] aastore
+      [9] dup
+      [10] iconst_1
+      [11] ldc #9
+        + String [title]
+      [13] aastore
+      [14] dup
+      [15] iconst_2
+      [16] ldc #7
+        + String [img_url]
+      [18] aastore
+      [19] astore_1 v1
+      [20] aload_0 v0
+      [21] getfield #28
+        + Fieldref [main/a/b.b Landroid/database/sqlite/SQLiteDatabase;]
+      [24] ldc #8
+        + String [news]
+      [26] aload_1 v1
+      [27] aconst_null
+      [28] aconst_null
+      [29] aconst_null
+      [30] aconst_null
+      [31] ldc #6
+        + String [_id]
+      [33] invokevirtual #36
+        + Methodref [android/database/sqlite/SQLiteDatabase.query (Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;]
+      [36] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lmain/b/g;)J
+    Access flags: 0x1
+      = public long a(main.b.g)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 5, stack = 4):
+      [0] new #10
+        + Class [android/content/ContentValues]
+      [3] dup
+      [4] invokespecial #31
+        + Methodref [android/content/ContentValues.<init> ()V]
+      [7] astore_2 v2
+      [8] aload_2 v2
+      [9] ldc #7
+        + String [img_url]
+      [11] aload_1 v1
+      [12] invokevirtual #55
+        + Methodref [main/b/g.c ()Ljava/lang/String;]
+      [15] invokevirtual #32
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [18] aload_2 v2
+      [19] ldc #9
+        + String [title]
+      [21] aload_1 v1
+      [22] invokevirtual #54
+        + Methodref [main/b/g.b ()Ljava/lang/String;]
+      [25] invokevirtual #32
+        + Methodref [android/content/ContentValues.put (Ljava/lang/String;Ljava/lang/String;)V]
+      [28] aload_0 v0
+      [29] getfield #28
+        + Fieldref [main/a/b.b Landroid/database/sqlite/SQLiteDatabase;]
+      [32] ldc #8
+        + String [news]
+      [34] aconst_null
+      [35] aload_2 v2
+      [36] invokevirtual #35
+        + Methodref [android/database/sqlite/SQLiteDatabase.insert (Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J]
+      [39] lstore_3 v3
+      [40] aload_0 v0
+      [41] invokespecial #47
+        + Methodref [main/a/b.c ()V]
+      [44] lload_3 v3
+      [45] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/util/ArrayList;)V
+    Access flags: 0x1
+      = public void a(java.util.ArrayList)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 34, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] invokevirtual #43
+        + Methodref [java/util/ArrayList.iterator ()Ljava/util/Iterator;]
+      [4] astore_2 v2
+      [5] aload_2 v2
+      [6] invokeinterface #60, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [11] ifeq +22 (target=33)
+      [14] aload_2 v2
+      [15] invokeinterface #61, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [20] checkcast #26
+        + Class [main/b/g]
+      [23] astore_3 v3
+      [24] aload_0 v0
+      [25] aload_3 v3
+      [26] invokevirtual #46
+        + Methodref [main/a/b.a (Lmain/b/g;)J]
+      [29] pop2
+      [30] goto -25 (target=5)
+      [33] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x1
+      = public void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #28
+        + Fieldref [main/a/b.b Landroid/database/sqlite/SQLiteDatabase;]
+      [4] ldc #8
+        + String [news]
+      [6] aconst_null
+      [7] aconst_null
+      [8] invokevirtual #34
+        + Methodref [android/database/sqlite/SQLiteDatabase.delete (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I]
+      [11] pop
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()V
+    Access flags: 0x2
+      = private void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] invokevirtual #44
+        + Methodref [main/a/b.a ()Landroid/database/Cursor;]
+      [5] putfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [8] aload_0 v0
+      [9] invokevirtual #49
+        + Methodref [main/a/b.notifyDataSetChanged ()V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       d()V
+    Access flags: 0x2
+      = private void d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 63, locals = 2, stack = 7):
+      [0] aload_0 v0
+      [1] new #25
+        + Class [main/a/c]
+      [4] dup
+      [5] aload_0 v0
+      [6] getfield #30
+        + Fieldref [main/a/b.d Landroid/content/Context;]
+      [9] ldc #3
+        + String [DB]
+      [11] aconst_null
+      [12] iconst_1
+      [13] invokespecial #50
+        + Methodref [main/a/c.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+      [16] putfield #29
+        + Fieldref [main/a/b.c Lmain/a/c;]
+      [19] aload_0 v0
+      [20] aload_0 v0
+      [21] getfield #29
+        + Fieldref [main/a/b.c Lmain/a/c;]
+      [24] invokevirtual #51
+        + Methodref [main/a/c.getWritableDatabase ()Landroid/database/sqlite/SQLiteDatabase;]
+      [27] putfield #28
+        + Fieldref [main/a/b.b Landroid/database/sqlite/SQLiteDatabase;]
+      [30] goto +24 (target=54)
+      [33] astore_1 v1
+      [34] aload_0 v0
+      [35] invokevirtual #42
+        + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [38] ldc #4
+        + String [Error while getting database]
+      [40] invokestatic #37
+        + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+      [43] pop
+      [44] new #19
+        + Class [java/lang/Error]
+      [47] dup
+      [48] ldc #5
+        + String [The end]
+      [50] invokespecial #41
+        + Methodref [java/lang/Error.<init> (Ljava/lang/String;)V]
+      [53] athrow
+      [54] aload_0 v0
+      [55] aload_0 v0
+      [56] invokevirtual #44
+        + Methodref [main/a/b.a ()Landroid/database/Cursor;]
+      [59] putfield #27
+        + Fieldref [main/a/b.a Landroid/database/Cursor;]
+      [62] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (19 -> 30: 33):
+      + Class [android/database/SQLException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       getItem(I)Ljava/lang/Object;
+    Access flags: 0x1001
+      = public synthetic java.lang.Object getItem(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] iload_1 v1
+      [2] invokevirtual #45
+        + Methodref [main/a/b.a (I)Lmain/b/g;]
+      [5] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/a/c
+  Superclass:    android/database/sqlite/SQLiteOpenHelper
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.a.c extends android.database.sqlite.SQLiteOpenHelper
+
+Interfaces (count = 0):
+
+Constant Pool (count = 26):
+  + String [CREATE TABLE news (_id INTEGER PRIMARY KEY AUTOINCREMENT, img_url TEXT NOT NULL, title TEXT NOT NULL);]
+  + String [DROP TABLE IF EXISTS news]
+  + Class [android/database/sqlite/SQLiteDatabase]
+  + Class [android/database/sqlite/SQLiteOpenHelper]
+  + Class [main/a/c]
+  + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+  + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Methodref [main/a/c.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + NameAndType [<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + NameAndType [execSQL (Ljava/lang/String;)V]
+  + NameAndType [onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Utf8 [(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;)V]
+  + Utf8 [(Landroid/database/sqlite/SQLiteDatabase;II)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [CREATE TABLE news (_id INTEGER PRIMARY KEY AUTOINCREMENT, img_url TEXT NOT NULL, title TEXT NOT NULL);]
+  + Utf8 [Code]
+  + Utf8 [DROP TABLE IF EXISTS news]
+  + Utf8 [android/database/sqlite/SQLiteDatabase]
+  + Utf8 [android/database/sqlite/SQLiteOpenHelper]
+  + Utf8 [execSQL]
+  + Utf8 [main/a/c]
+  + Utf8 [onCreate]
+  + Utf8 [onUpgrade]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  - Method:       <init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
+    Access flags: 0x1
+      = public c(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] aload_3 v3
+      [4] iload v4
+      [6] invokespecial #7
+        + Methodref [android/database/sqlite/SQLiteOpenHelper.<init> (Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+    Access flags: 0x1
+      = public void onCreate(android.database.sqlite.SQLiteDatabase)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 3, stack = 2):
+      [0] ldc #1
+        + String [CREATE TABLE news (_id INTEGER PRIMARY KEY AUTOINCREMENT, img_url TEXT NOT NULL, title TEXT NOT NULL);]
+      [2] astore_2 v2
+      [3] aload_1 v1
+      [4] ldc #1
+        + String [CREATE TABLE news (_id INTEGER PRIMARY KEY AUTOINCREMENT, img_url TEXT NOT NULL, title TEXT NOT NULL);]
+      [6] invokevirtual #6
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V
+    Access flags: 0x1
+      = public void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] ldc #2
+        + String [DROP TABLE IF EXISTS news]
+      [3] invokevirtual #6
+        + Methodref [android/database/sqlite/SQLiteDatabase.execSQL (Ljava/lang/String;)V]
+      [6] aload_0 v0
+      [7] aload_1 v1
+      [8] invokevirtual #8
+        + Methodref [main/a/c.onCreate (Landroid/database/sqlite/SQLiteDatabase;)V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/MainActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.MainActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 119):
+  + Integer [2130903041]
+  + Integer [2131099650]
+  + Integer [2131099651]
+  + String [my_log]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [android/widget/ListView]
+  + Class [java/lang/Void]
+  + Class [java/util/ArrayList]
+  + Class [main/MainActivity]
+  + Class [main/a]
+  + Class [main/a/a]
+  + Class [main/a/b]
+  + Class [main/b]
+  + Fieldref [main/MainActivity.a Landroid/widget/ListView;]
+  + Fieldref [main/MainActivity.b Lmain/a/a;]
+  + Fieldref [main/MainActivity.c Lmain/a/b;]
+  + Fieldref [main/MainActivity.d Ljava/lang/String;]
+  + Fieldref [main/MainActivity.e Landroid/view/View$OnClickListener;]
+  + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+  + Fieldref [main/MainActivity.g I]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [main/MainActivity.a ()Z]
+  + Methodref [main/MainActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [main/MainActivity.setContentView (I)V]
+  + Methodref [main/a.<init> (Lmain/MainActivity;)V]
+  + Methodref [main/a/a.<init> (Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V]
+  + Methodref [main/a/a.a (Ljava/util/ArrayList;)V]
+  + Methodref [main/a/b.<init> (Landroid/content/Context;)V]
+  + Methodref [main/a/b.a (I)Lmain/b/g;]
+  + Methodref [main/a/b.getCount ()I]
+  + Methodref [main/b.<init> (Lmain/MainActivity;Lmain/a;)V]
+  + Methodref [main/b.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lmain/MainActivity;)V]
+  + NameAndType [<init> (Lmain/MainActivity;Lmain/a;)V]
+  + NameAndType [a ()Z]
+  + NameAndType [a (I)Lmain/b/g;]
+  + NameAndType [a (Ljava/util/ArrayList;)V]
+  + NameAndType [a Landroid/widget/ListView;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b Lmain/a/a;]
+  + NameAndType [c Lmain/a/b;]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [e Landroid/view/View$OnClickListener;]
+  + NameAndType [execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + NameAndType [f Ljava/util/ArrayList;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [g I]
+  + NameAndType [getCount ()I]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [setAdapter (Landroid/widget/ListAdapter;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()I]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Lmain/b/g;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Landroid/widget/ListAdapter;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [(Lmain/MainActivity;)I]
+  + Utf8 [(Lmain/MainActivity;)Ljava/util/ArrayList;]
+  + Utf8 [(Lmain/MainActivity;)V]
+  + Utf8 [(Lmain/MainActivity;Lmain/a;)V]
+  + Utf8 [([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/view/View$OnClickListener;]
+  + Utf8 [Landroid/widget/ListView;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/ArrayList;]
+  + Utf8 [Lmain/a/a;]
+  + Utf8 [Lmain/a/b;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/ListView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [execute]
+  + Utf8 [f]
+  + Utf8 [findViewById]
+  + Utf8 [g]
+  + Utf8 [getCount]
+  + Utf8 [java/lang/Void]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [main/MainActivity]
+  + Utf8 [main/a]
+  + Utf8 [main/a/a]
+  + Utf8 [main/a/b]
+  + Utf8 [main/b]
+  + Utf8 [my_log]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [setAdapter]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 7):
+  + Field:        a Landroid/widget/ListView;
+    Access flags: 0x0
+      = android.widget.ListView a
+  + Field:        b Lmain/a/a;
+    Access flags: 0x0
+      = main.a.a b
+  + Field:        c Lmain/a/b;
+    Access flags: 0x0
+      = main.a.b c
+  + Field:        d Ljava/lang/String;
+    Access flags: 0x9
+      = public static java.lang.String d
+  + Field:        f Ljava/util/ArrayList;
+    Access flags: 0x2
+      = private java.util.ArrayList f
+  + Field:        g I
+    Access flags: 0x2
+      = private int g
+  + Field:        e Landroid/view/View$OnClickListener;
+    Access flags: 0x1
+      = public android.view.View$OnClickListener e
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MainActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] aload_0 v0
+      [5] bipush 50
+      [7] putfield #21
+        + Fieldref [main/MainActivity.g I]
+      [10] aload_0 v0
+      [11] new #11
+        + Class [main/a]
+      [14] dup
+      [15] aload_0 v0
+      [16] invokespecial #32
+        + Methodref [main/a.<init> (Lmain/MainActivity;)V]
+      [19] putfield #19
+        + Fieldref [main/MainActivity.e Landroid/view/View$OnClickListener;]
+      [22] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 118, locals = 3, stack = 6):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #23
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130903041]
+      [8] invokevirtual #31
+        + Methodref [main/MainActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] aload_0 v0
+      [13] ldc #2
+        + Integer [2131099650]
+      [15] invokevirtual #30
+        + Methodref [main/MainActivity.findViewById (I)Landroid/view/View;]
+      [18] checkcast #7
+        + Class [android/widget/ListView]
+      [21] putfield #15
+        + Fieldref [main/MainActivity.a Landroid/widget/ListView;]
+      [24] aload_0 v0
+      [25] new #9
+        + Class [java/util/ArrayList]
+      [28] dup
+      [29] invokespecial #27
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [32] putfield #20
+        + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+      [35] aload_0 v0
+      [36] new #13
+        + Class [main/a/b]
+      [39] dup
+      [40] aload_0 v0
+      [41] invokespecial #35
+        + Methodref [main/a/b.<init> (Landroid/content/Context;)V]
+      [44] putfield #17
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [47] aload_0 v0
+      [48] new #12
+        + Class [main/a/a]
+      [51] dup
+      [52] aload_0 v0
+      [53] aload_0 v0
+      [54] getfield #20
+        + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+      [57] aload_0 v0
+      [58] invokespecial #33
+        + Methodref [main/a/a.<init> (Landroid/app/Activity;Ljava/util/ArrayList;Landroid/content/Context;)V]
+      [61] putfield #16
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [64] aload_0 v0
+      [65] getfield #15
+        + Fieldref [main/MainActivity.a Landroid/widget/ListView;]
+      [68] aload_0 v0
+      [69] getfield #16
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [72] invokevirtual #26
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [75] aload_0 v0
+      [76] invokespecial #29
+        + Methodref [main/MainActivity.a ()Z]
+      [79] ifne +20 (target=99)
+      [82] new #14
+        + Class [main/b]
+      [85] dup
+      [86] aload_0 v0
+      [87] aconst_null
+      [88] invokespecial #38
+        + Methodref [main/b.<init> (Lmain/MainActivity;Lmain/a;)V]
+      [91] iconst_0
+      [92] anewarray #8
+        + Class [java/lang/Void]
+      [95] invokevirtual #39
+        + Methodref [main/b.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+      [98] pop
+      [99] aload_0 v0
+      [100] ldc #3
+        + Integer [2131099651]
+      [102] invokevirtual #30
+        + Methodref [main/MainActivity.findViewById (I)Landroid/view/View;]
+      [105] checkcast #6
+        + Class [android/widget/Button]
+      [108] astore_2 v2
+      [109] aload_2 v2
+      [110] aload_0 v0
+      [111] getfield #19
+        + Fieldref [main/MainActivity.e Landroid/view/View$OnClickListener;]
+      [114] invokevirtual #25
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [117] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()Z
+    Access flags: 0x2
+      = private boolean a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 68, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #17
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [4] invokevirtual #37
+        + Methodref [main/a/b.getCount ()I]
+      [7] ifle +59 (target=66)
+      [10] iconst_0
+      [11] istore_1 v1
+      [12] iload_1 v1
+      [13] aload_0 v0
+      [14] getfield #17
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [17] invokevirtual #37
+        + Methodref [main/a/b.getCount ()I]
+      [20] ificmpge +33 (target=53)
+      [23] iload_1 v1
+      [24] aload_0 v0
+      [25] getfield #21
+        + Fieldref [main/MainActivity.g I]
+      [28] ificmpge +25 (target=53)
+      [31] aload_0 v0
+      [32] getfield #20
+        + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+      [35] aload_0 v0
+      [36] getfield #17
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [39] iload_1 v1
+      [40] invokevirtual #36
+        + Methodref [main/a/b.a (I)Lmain/b/g;]
+      [43] invokevirtual #28
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [46] pop
+      [47] iinc v1, 1
+      [50] goto -38 (target=12)
+      [53] aload_0 v0
+      [54] getfield #16
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [57] aload_0 v0
+      [58] getfield #20
+        + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+      [61] invokevirtual #34
+        + Methodref [main/a/a.a (Ljava/util/ArrayList;)V]
+      [64] iconst_1
+      [65] ireturn
+      [66] iconst_0
+      [67] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x1
+      = public void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #15
+        + Fieldref [main/MainActivity.a Landroid/widget/ListView;]
+      [4] aconst_null
+      [5] invokevirtual #26
+        + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
+      [8] aload_0 v0
+      [9] invokespecial #24
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [12] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lmain/MainActivity;)Ljava/util/ArrayList;
+    Access flags: 0x1008
+      = static synthetic java.util.ArrayList a(main.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #20
+        + Fieldref [main/MainActivity.f Ljava/util/ArrayList;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lmain/MainActivity;)I
+    Access flags: 0x1008
+      = static synthetic int b(main.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [main/MainActivity.g I]
+      [4] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 0, stack = 1):
+      [0] ldc #4
+        + String [my_log]
+      [2] putstatic #18
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 57):
+  + Class [android/view/View$OnClickListener]
+  + Class [java/lang/Object]
+  + Class [java/lang/Void]
+  + Class [main/MainActivity]
+  + Class [main/a]
+  + Class [main/a/a]
+  + Class [main/a/b]
+  + Class [main/b]
+  + Class [main/b/b]
+  + Fieldref [main/MainActivity.b Lmain/a/a;]
+  + Fieldref [main/MainActivity.c Lmain/a/b;]
+  + Fieldref [main/a.a Lmain/MainActivity;]
+  + Fieldref [main/a/a.a Lmain/b/b;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [main/a/a.a ()V]
+  + Methodref [main/a/a.notifyDataSetChanged ()V]
+  + Methodref [main/a/b.b ()V]
+  + Methodref [main/b.<init> (Lmain/MainActivity;Lmain/a;)V]
+  + Methodref [main/b.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Methodref [main/b/b.a ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lmain/MainActivity;Lmain/a;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a Lmain/MainActivity;]
+  + NameAndType [a Lmain/b/b;]
+  + NameAndType [b ()V]
+  + NameAndType [b Lmain/a/a;]
+  + NameAndType [c Lmain/a/b;]
+  + NameAndType [execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + NameAndType [notifyDataSetChanged ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lmain/MainActivity;)V]
+  + Utf8 [(Lmain/MainActivity;Lmain/a;)V]
+  + Utf8 [([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lmain/MainActivity;]
+  + Utf8 [Lmain/a/a;]
+  + Utf8 [Lmain/a/b;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [execute]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Void]
+  + Utf8 [main/MainActivity]
+  + Utf8 [main/a]
+  + Utf8 [main/a/a]
+  + Utf8 [main/a/b]
+  + Utf8 [main/b]
+  + Utf8 [main/b/b]
+  + Utf8 [notifyDataSetChanged]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lmain/MainActivity;
+    Access flags: 0x1010
+      = final synthetic main.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lmain/MainActivity;)V
+    Access flags: 0x0
+      = a(main.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #14
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [4] getfield #11
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [7] invokevirtual #17
+        + Methodref [main/a/b.b ()V]
+      [10] aload_0 v0
+      [11] getfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [14] getfield #10
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [17] getfield #13
+        + Fieldref [main/a/a.a Lmain/b/b;]
+      [20] invokevirtual #20
+        + Methodref [main/b/b.a ()V]
+      [23] aload_0 v0
+      [24] getfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [27] getfield #10
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [30] invokevirtual #16
+        + Methodref [main/a/a.notifyDataSetChanged ()V]
+      [33] aload_0 v0
+      [34] getfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [37] getfield #10
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [40] invokevirtual #15
+        + Methodref [main/a/a.a ()V]
+      [43] new #8
+        + Class [main/b]
+      [46] dup
+      [47] aload_0 v0
+      [48] getfield #12
+        + Fieldref [main/a.a Lmain/MainActivity;]
+      [51] aconst_null
+      [52] invokespecial #18
+        + Methodref [main/b.<init> (Lmain/MainActivity;Lmain/a;)V]
+      [55] iconst_0
+      [56] anewarray #3
+        + Class [java/lang/Void]
+      [59] invokevirtual #19
+        + Methodref [main/b.execute ([Ljava/lang/Object;)Landroid/os/AsyncTask;]
+      [62] pop
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b
+  Superclass:    android/os/AsyncTask
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.b extends android.os.AsyncTask
+
+Interfaces (count = 0):
+
+Constant Pool (count = 198):
+  + String []
+  + String [GET]
+  + String [count: ]
+  + String [http://api.innogest.ru/api/v3/amobile/news]
+  + String [img: ]
+  + String [img_url]
+  + String [title]
+  + String [title: ]
+  + Class [[Ljava/lang/Void;]
+  + Class [android/os/AsyncTask]
+  + Class [android/util/Log]
+  + Class [java/io/BufferedReader]
+  + Class [java/io/InputStreamReader]
+  + Class [java/lang/Exception]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuffer]
+  + Class [java/lang/StringBuilder]
+  + Class [java/net/HttpURLConnection]
+  + Class [java/net/URL]
+  + Class [java/util/ArrayList]
+  + Class [main/MainActivity]
+  + Class [main/a/a]
+  + Class [main/a/b]
+  + Class [main/b]
+  + Class [main/b/b]
+  + Class [main/b/g]
+  + Class [org/json/JSONArray]
+  + Class [org/json/JSONException]
+  + Class [org/json/JSONObject]
+  + Fieldref [main/MainActivity.b Lmain/a/a;]
+  + Fieldref [main/MainActivity.c Lmain/a/b;]
+  + Fieldref [main/MainActivity.d Ljava/lang/String;]
+  + Fieldref [main/a/a.a Lmain/b/b;]
+  + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+  + Fieldref [main/b.b Ljava/io/BufferedReader;]
+  + Fieldref [main/b.c Ljava/lang/String;]
+  + Fieldref [main/b.d Lmain/MainActivity;]
+  + Methodref [android/os/AsyncTask.<init> ()V]
+  + Methodref [android/os/AsyncTask.onPostExecute (Ljava/lang/Object;)V]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+  + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+  + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/StringBuffer.<init> ()V]
+  + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/net/HttpURLConnection.connect ()V]
+  + Methodref [java/net/HttpURLConnection.getInputStream ()Ljava/io/InputStream;]
+  + Methodref [java/net/HttpURLConnection.setRequestMethod (Ljava/lang/String;)V]
+  + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+  + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+  + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+  + Methodref [java/util/ArrayList.clear ()V]
+  + Methodref [main/MainActivity.a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+  + Methodref [main/MainActivity.b (Lmain/MainActivity;)I]
+  + Methodref [main/a/a.a (Ljava/util/ArrayList;)V]
+  + Methodref [main/a/a.getCount ()I]
+  + Methodref [main/a/a.notifyDataSetChanged ()V]
+  + Methodref [main/a/b.a (Ljava/util/ArrayList;)V]
+  + Methodref [main/a/b.getCount ()I]
+  + Methodref [main/b.<init> (Lmain/MainActivity;)V]
+  + Methodref [main/b.a (Ljava/lang/String;)V]
+  + Methodref [main/b.a ([Ljava/lang/Void;)Ljava/lang/String;]
+  + Methodref [main/b/b.a ()V]
+  + Methodref [main/b/g.<init> (JLjava/lang/String;Ljava/lang/String;)V]
+  + Methodref [org/json/JSONArray.<init> (Ljava/lang/String;)V]
+  + Methodref [org/json/JSONArray.getJSONObject (I)Lorg/json/JSONObject;]
+  + Methodref [org/json/JSONArray.length ()I]
+  + Methodref [org/json/JSONException.printStackTrace ()V]
+  + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (JLjava/lang/String;Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/io/InputStream;)V]
+  + NameAndType [<init> (Ljava/io/Reader;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Lmain/MainActivity;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Ljava/lang/String;)V]
+  + NameAndType [a (Ljava/util/ArrayList;)V]
+  + NameAndType [a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+  + NameAndType [a ([Ljava/lang/Void;)Ljava/lang/String;]
+  + NameAndType [a Ljava/net/HttpURLConnection;]
+  + NameAndType [a Lmain/b/b;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b (Lmain/MainActivity;)I]
+  + NameAndType [b Ljava/io/BufferedReader;]
+  + NameAndType [b Lmain/a/a;]
+  + NameAndType [c Ljava/lang/String;]
+  + NameAndType [c Lmain/a/b;]
+  + NameAndType [clear ()V]
+  + NameAndType [connect ()V]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d Ljava/lang/String;]
+  + NameAndType [d Lmain/MainActivity;]
+  + NameAndType [getCount ()I]
+  + NameAndType [getInputStream ()Ljava/io/InputStream;]
+  + NameAndType [getJSONObject (I)Lorg/json/JSONObject;]
+  + NameAndType [getString (Ljava/lang/String;)Ljava/lang/String;]
+  + NameAndType [length ()I]
+  + NameAndType [notifyDataSetChanged ()V]
+  + NameAndType [onPostExecute (Ljava/lang/Object;)V]
+  + NameAndType [openConnection ()Ljava/net/URLConnection;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [readLine ()Ljava/lang/String;]
+  + NameAndType [setRequestMethod (Ljava/lang/String;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 []
+  + Utf8 [()I]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/net/URLConnection;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Lorg/json/JSONObject;]
+  + Utf8 [(JLjava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/io/InputStream;)V]
+  + Utf8 [(Ljava/io/Reader;)V]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuffer;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/util/ArrayList;)V]
+  + Utf8 [(Lmain/MainActivity;)I]
+  + Utf8 [(Lmain/MainActivity;)Ljava/util/ArrayList;]
+  + Utf8 [(Lmain/MainActivity;)V]
+  + Utf8 [(Lmain/MainActivity;Lmain/a;)V]
+  + Utf8 [([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [([Ljava/lang/Void;)Ljava/lang/String;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [GET]
+  + Utf8 [Ljava/io/BufferedReader;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/net/HttpURLConnection;]
+  + Utf8 [Lmain/MainActivity;]
+  + Utf8 [Lmain/a/a;]
+  + Utf8 [Lmain/a/b;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [[Ljava/lang/Void;]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/os/AsyncTask]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [clear]
+  + Utf8 [connect]
+  + Utf8 [count: ]
+  + Utf8 [d]
+  + Utf8 [doInBackground]
+  + Utf8 [getCount]
+  + Utf8 [getInputStream]
+  + Utf8 [getJSONObject]
+  + Utf8 [getString]
+  + Utf8 [http://api.innogest.ru/api/v3/amobile/news]
+  + Utf8 [img: ]
+  + Utf8 [img_url]
+  + Utf8 [java/io/BufferedReader]
+  + Utf8 [java/io/InputStreamReader]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuffer]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/net/HttpURLConnection]
+  + Utf8 [java/net/URL]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [length]
+  + Utf8 [main/MainActivity]
+  + Utf8 [main/a/a]
+  + Utf8 [main/a/b]
+  + Utf8 [main/b]
+  + Utf8 [main/b/b]
+  + Utf8 [main/b/g]
+  + Utf8 [notifyDataSetChanged]
+  + Utf8 [onPostExecute]
+  + Utf8 [openConnection]
+  + Utf8 [org/json/JSONArray]
+  + Utf8 [org/json/JSONException]
+  + Utf8 [org/json/JSONObject]
+  + Utf8 [printStackTrace]
+  + Utf8 [readLine]
+  + Utf8 [setRequestMethod]
+  + Utf8 [title]
+  + Utf8 [title: ]
+  + Utf8 [toString]
+
+Fields (count = 4):
+  + Field:        a Ljava/net/HttpURLConnection;
+    Access flags: 0x0
+      = java.net.HttpURLConnection a
+  + Field:        b Ljava/io/BufferedReader;
+    Access flags: 0x0
+      = java.io.BufferedReader b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x0
+      = java.lang.String c
+  + Field:        d Lmain/MainActivity;
+    Access flags: 0x1010
+      = final synthetic main.MainActivity d
+
+Methods (count = 6):
+  - Method:       <init>(Lmain/MainActivity;)V
+    Access flags: 0x2
+      = private b(main.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #38
+        + Methodref [android/os/AsyncTask.<init> ()V]
+      [9] aload_0 v0
+      [10] aconst_null
+      [11] putfield #34
+        + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+      [14] aload_0 v0
+      [15] aconst_null
+      [16] putfield #35
+        + Fieldref [main/b.b Ljava/io/BufferedReader;]
+      [19] aload_0 v0
+      [20] ldc #1
+        + String []
+      [22] putfield #36
+        + Fieldref [main/b.c Ljava/lang/String;]
+      [25] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a([Ljava/lang/Void;)Ljava/lang/String;
+    Access flags: 0x84
+      = protected varargs java.lang.String a(java.lang.Void[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 119, locals = 6, stack = 6):
+      [0] new #19
+        + Class [java/net/URL]
+      [3] dup
+      [4] ldc #4
+        + String [http://api.innogest.ru/api/v3/amobile/news]
+      [6] invokespecial #55
+        + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+      [9] astore_2 v2
+      [10] aload_0 v0
+      [11] aload_2 v2
+      [12] invokevirtual #56
+        + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+      [15] checkcast #18
+        + Class [java/net/HttpURLConnection]
+      [18] putfield #34
+        + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+      [21] aload_0 v0
+      [22] getfield #34
+        + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+      [25] ldc #2
+        + String [GET]
+      [27] invokevirtual #54
+        + Methodref [java/net/HttpURLConnection.setRequestMethod (Ljava/lang/String;)V]
+      [30] aload_0 v0
+      [31] getfield #34
+        + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+      [34] invokevirtual #52
+        + Methodref [java/net/HttpURLConnection.connect ()V]
+      [37] aload_0 v0
+      [38] getfield #34
+        + Fieldref [main/b.a Ljava/net/HttpURLConnection;]
+      [41] invokevirtual #53
+        + Methodref [java/net/HttpURLConnection.getInputStream ()Ljava/io/InputStream;]
+      [44] astore_3 v3
+      [45] new #16
+        + Class [java/lang/StringBuffer]
+      [48] dup
+      [49] invokespecial #45
+        + Methodref [java/lang/StringBuffer.<init> ()V]
+      [52] astore v4
+      [54] aload_0 v0
+      [55] new #12
+        + Class [java/io/BufferedReader]
+      [58] dup
+      [59] new #13
+        + Class [java/io/InputStreamReader]
+      [62] dup
+      [63] aload_3 v3
+      [64] invokespecial #43
+        + Methodref [java/io/InputStreamReader.<init> (Ljava/io/InputStream;)V]
+      [67] invokespecial #41
+        + Methodref [java/io/BufferedReader.<init> (Ljava/io/Reader;)V]
+      [70] putfield #35
+        + Fieldref [main/b.b Ljava/io/BufferedReader;]
+      [73] aload_0 v0
+      [74] getfield #35
+        + Fieldref [main/b.b Ljava/io/BufferedReader;]
+      [77] invokevirtual #42
+        + Methodref [java/io/BufferedReader.readLine ()Ljava/lang/String;]
+      [80] dup
+      [81] astore v5
+      [83] ifnull +14 (target=97)
+      [86] aload v4
+      [88] aload v5
+      [90] invokevirtual #46
+        + Methodref [java/lang/StringBuffer.append (Ljava/lang/String;)Ljava/lang/StringBuffer;]
+      [93] pop
+      [94] goto -21 (target=73)
+      [97] aload_0 v0
+      [98] aload v4
+      [100] invokevirtual #47
+        + Methodref [java/lang/StringBuffer.toString ()Ljava/lang/String;]
+      [103] putfield #36
+        + Fieldref [main/b.c Ljava/lang/String;]
+      [106] goto +8 (target=114)
+      [109] astore_2 v2
+      [110] aload_2 v2
+      [111] invokevirtual #44
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [114] aload_0 v0
+      [115] getfield #36
+        + Fieldref [main/b.c Ljava/lang/String;]
+      [118] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 106: 109):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)V
+    Access flags: 0x4
+      = protected void a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 302, locals = 7, stack = 7):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #39
+        + Methodref [android/os/AsyncTask.onPostExecute (Ljava/lang/Object;)V]
+      [5] getstatic #32
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [8] aload_1 v1
+      [9] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [12] pop
+      [13] aconst_null
+      [14] astore_2 v2
+      [15] aload_0 v0
+      [16] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [19] invokestatic #59
+        + Methodref [main/MainActivity.a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+      [22] invokevirtual #58
+        + Methodref [java/util/ArrayList.clear ()V]
+      [25] new #27
+        + Class [org/json/JSONArray]
+      [28] dup
+      [29] aload_1 v1
+      [30] invokespecial #71
+        + Methodref [org/json/JSONArray.<init> (Ljava/lang/String;)V]
+      [33] astore_2 v2
+      [34] iconst_0
+      [35] istore v5
+      [37] iload v5
+      [39] aload_2 v2
+      [40] invokevirtual #73
+        + Methodref [org/json/JSONArray.length ()I]
+      [43] ificmpge +216 (target=259)
+      [46] iload v5
+      [48] aload_0 v0
+      [49] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [52] invokestatic #60
+        + Methodref [main/MainActivity.b (Lmain/MainActivity;)I]
+      [55] ificmpge +204 (target=259)
+      [58] aload_2 v2
+      [59] iload v5
+      [61] invokevirtual #72
+        + Methodref [org/json/JSONArray.getJSONObject (I)Lorg/json/JSONObject;]
+      [64] astore v6
+      [66] aload v6
+      [68] ldc #6
+        + String [img_url]
+      [70] invokevirtual #75
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [73] astore v4
+      [75] aload v6
+      [77] ldc #7
+        + String [title]
+      [79] invokevirtual #75
+        + Methodref [org/json/JSONObject.getString (Ljava/lang/String;)Ljava/lang/String;]
+      [82] astore_3 v3
+      [83] getstatic #32
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [86] new #17
+        + Class [java/lang/StringBuilder]
+      [89] dup
+      [90] invokespecial #48
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [93] ldc #5
+        + String [img: ]
+      [95] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [98] aload v4
+      [100] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [103] invokevirtual #51
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [106] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [109] pop
+      [110] getstatic #32
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [113] new #17
+        + Class [java/lang/StringBuilder]
+      [116] dup
+      [117] invokespecial #48
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [120] ldc #8
+        + String [title: ]
+      [122] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [125] aload_3 v3
+      [126] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [129] invokevirtual #51
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [132] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [135] pop
+      [136] aload_0 v0
+      [137] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [140] invokestatic #59
+        + Methodref [main/MainActivity.a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+      [143] new #26
+        + Class [main/b/g]
+      [146] dup
+      [147] iload v5
+      [149] i2l
+      [150] aload v4
+      [152] aload_3 v3
+      [153] invokespecial #70
+        + Methodref [main/b/g.<init> (JLjava/lang/String;Ljava/lang/String;)V]
+      [156] invokevirtual #57
+        + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
+      [159] pop
+      [160] aload_0 v0
+      [161] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [164] getfield #30
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [167] getfield #33
+        + Fieldref [main/a/a.a Lmain/b/b;]
+      [170] invokevirtual #69
+        + Methodref [main/b/b.a ()V]
+      [173] aload_0 v0
+      [174] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [177] getfield #30
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [180] invokevirtual #63
+        + Methodref [main/a/a.notifyDataSetChanged ()V]
+      [183] getstatic #32
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [186] new #17
+        + Class [java/lang/StringBuilder]
+      [189] dup
+      [190] invokespecial #48
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [193] ldc #3
+        + String [count: ]
+      [195] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [198] aload_0 v0
+      [199] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [202] getfield #30
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [205] invokevirtual #62
+        + Methodref [main/a/a.getCount ()I]
+      [208] invokevirtual #49
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [211] invokevirtual #51
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [214] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [217] pop
+      [218] getstatic #32
+        + Fieldref [main/MainActivity.d Ljava/lang/String;]
+      [221] new #17
+        + Class [java/lang/StringBuilder]
+      [224] dup
+      [225] invokespecial #48
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [228] ldc #3
+        + String [count: ]
+      [230] invokevirtual #50
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [233] aload_0 v0
+      [234] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [237] getfield #31
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [240] invokevirtual #65
+        + Methodref [main/a/b.getCount ()I]
+      [243] invokevirtual #49
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [246] invokevirtual #51
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [249] invokestatic #40
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [252] pop
+      [253] iinc v5, 1
+      [256] goto -219 (target=37)
+      [259] goto +8 (target=267)
+      [262] astore_3 v3
+      [263] aload_3 v3
+      [264] invokevirtual #74
+        + Methodref [org/json/JSONException.printStackTrace ()V]
+      [267] aload_0 v0
+      [268] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [271] getfield #31
+        + Fieldref [main/MainActivity.c Lmain/a/b;]
+      [274] aload_0 v0
+      [275] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [278] invokestatic #59
+        + Methodref [main/MainActivity.a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+      [281] invokevirtual #64
+        + Methodref [main/a/b.a (Ljava/util/ArrayList;)V]
+      [284] aload_0 v0
+      [285] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [288] getfield #30
+        + Fieldref [main/MainActivity.b Lmain/a/a;]
+      [291] aload_0 v0
+      [292] getfield #37
+        + Fieldref [main/b.d Lmain/MainActivity;]
+      [295] invokestatic #59
+        + Methodref [main/MainActivity.a (Lmain/MainActivity;)Ljava/util/ArrayList;]
+      [298] invokevirtual #61
+        + Methodref [main/a/a.a (Ljava/util/ArrayList;)V]
+      [301] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (25 -> 259: 262):
+      + Class [org/json/JSONException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPostExecute(Ljava/lang/Object;)V
+    Access flags: 0x1004
+      = protected synthetic void onPostExecute(java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] checkcast #15
+        + Class [java/lang/String]
+      [5] invokevirtual #67
+        + Methodref [main/b.a (Ljava/lang/String;)V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       doInBackground([Ljava/lang/Object;)Ljava/lang/Object;
+    Access flags: 0x1004
+      = protected synthetic java.lang.Object doInBackground(java.lang.Object[])
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] checkcast #9
+        + Class [[Ljava/lang/Void;]
+      [5] invokevirtual #68
+        + Methodref [main/b.a ([Ljava/lang/Void;)Ljava/lang/String;]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Lmain/MainActivity;Lmain/a;)V
+    Access flags: 0x1000
+      = synthetic b(main.MainActivity,main.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #66
+        + Methodref [main/b.<init> (Lmain/MainActivity;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.b.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 68):
+  + String [LazyList]
+  + String [mounted]
+  + Class [android/content/Context]
+  + Class [android/os/Environment]
+  + Class [java/io/File]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [main/b/a]
+  + Fieldref [main/b/a.a Ljava/io/File;]
+  + Methodref [android/content/Context.getCacheDir ()Ljava/io/File;]
+  + Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+  + Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
+  + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + Methodref [java/io/File.delete ()Z]
+  + Methodref [java/io/File.exists ()Z]
+  + Methodref [java/io/File.listFiles ()[Ljava/io/File;]
+  + Methodref [java/io/File.mkdirs ()Z]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/String.hashCode ()I]
+  + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/io/File;Ljava/lang/String;)V]
+  + NameAndType [a Ljava/io/File;]
+  + NameAndType [delete ()Z]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [exists ()Z]
+  + NameAndType [getCacheDir ()Ljava/io/File;]
+  + NameAndType [getExternalStorageDirectory ()Ljava/io/File;]
+  + NameAndType [getExternalStorageState ()Ljava/lang/String;]
+  + NameAndType [hashCode ()I]
+  + NameAndType [listFiles ()[Ljava/io/File;]
+  + NameAndType [mkdirs ()Z]
+  + NameAndType [valueOf (I)Ljava/lang/String;]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/io/File;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [()[Ljava/io/File;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Ljava/io/File;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/File;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LazyList]
+  + Utf8 [Ljava/io/File;]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/os/Environment]
+  + Utf8 [delete]
+  + Utf8 [equals]
+  + Utf8 [exists]
+  + Utf8 [getCacheDir]
+  + Utf8 [getExternalStorageDirectory]
+  + Utf8 [getExternalStorageState]
+  + Utf8 [hashCode]
+  + Utf8 [java/io/File]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [listFiles]
+  + Utf8 [main/b/a]
+  + Utf8 [mkdirs]
+  + Utf8 [mounted]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Ljava/io/File;
+    Access flags: 0x2
+      = private java.io.File a
+
+Methods (count = 3):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public a(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 61, locals = 2, stack = 5):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] invokestatic #12
+        + Methodref [android/os/Environment.getExternalStorageState ()Ljava/lang/String;]
+      [7] ldc #2
+        + String [mounted]
+      [9] invokevirtual #19
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [12] ifeq +22 (target=34)
+      [15] aload_0 v0
+      [16] new #5
+        + Class [java/io/File]
+      [19] dup
+      [20] invokestatic #11
+        + Methodref [android/os/Environment.getExternalStorageDirectory ()Ljava/io/File;]
+      [23] ldc #1
+        + String [LazyList]
+      [25] invokespecial #13
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [28] putfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [31] goto +11 (target=42)
+      [34] aload_0 v0
+      [35] aload_1 v1
+      [36] invokevirtual #10
+        + Methodref [android/content/Context.getCacheDir ()Ljava/io/File;]
+      [39] putfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [42] aload_0 v0
+      [43] getfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [46] invokevirtual #15
+        + Methodref [java/io/File.exists ()Z]
+      [49] ifne +11 (target=60)
+      [52] aload_0 v0
+      [53] getfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [56] invokevirtual #17
+        + Methodref [java/io/File.mkdirs ()Z]
+      [59] pop
+      [60] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)Ljava/io/File;
+    Access flags: 0x1
+      = public java.io.File a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 4, stack = 4):
+      [0] aload_1 v1
+      [1] invokevirtual #20
+        + Methodref [java/lang/String.hashCode ()I]
+      [4] invokestatic #21
+        + Methodref [java/lang/String.valueOf (I)Ljava/lang/String;]
+      [7] astore_2 v2
+      [8] new #5
+        + Class [java/io/File]
+      [11] dup
+      [12] aload_0 v0
+      [13] getfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [16] aload_2 v2
+      [17] invokespecial #13
+        + Methodref [java/io/File.<init> (Ljava/io/File;Ljava/lang/String;)V]
+      [20] astore_3 v3
+      [21] aload_3 v3
+      [22] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 6, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #9
+        + Fieldref [main/b/a.a Ljava/io/File;]
+      [4] invokevirtual #16
+        + Methodref [java/io/File.listFiles ()[Ljava/io/File;]
+      [7] astore_1 v1
+      [8] aload_1 v1
+      [9] ifnonnull +4 (target=13)
+      [12] return
+      [13] aload_1 v1
+      [14] astore_2 v2
+      [15] aload_2 v2
+      [16] arraylength
+      [17] istore_3 v3
+      [18] iconst_0
+      [19] istore v4
+      [21] iload v4
+      [23] iload_3 v3
+      [24] ificmpge +21 (target=45)
+      [27] aload_2 v2
+      [28] iload v4
+      [30] aaload
+      [31] astore v5
+      [33] aload v5
+      [35] invokevirtual #14
+        + Methodref [java/io/File.delete ()Z]
+      [38] pop
+      [39] iinc v4, 1
+      [42] goto -21 (target=21)
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.b.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 209):
+  + Integer [2130837505]
+  + Class [android/graphics/BitmapFactory]
+  + Class [android/graphics/BitmapFactory$Options]
+  + Class [android/os/Handler]
+  + Class [android/widget/ImageView]
+  + Class [java/io/FileInputStream]
+  + Class [java/io/FileNotFoundException]
+  + Class [java/io/FileOutputStream]
+  + Class [java/io/IOException]
+  + Class [java/io/OutputStream]
+  + Class [java/lang/Object]
+  + Class [java/lang/OutOfMemoryError]
+  + Class [java/lang/String]
+  + Class [java/lang/Throwable]
+  + Class [java/net/HttpURLConnection]
+  + Class [java/net/URL]
+  + Class [java/util/Collections]
+  + Class [java/util/Map]
+  + Class [java/util/WeakHashMap]
+  + Class [java/util/concurrent/ExecutorService]
+  + Class [java/util/concurrent/Executors]
+  + Class [main/b/a]
+  + Class [main/b/b]
+  + Class [main/b/d]
+  + Class [main/b/e]
+  + Class [main/b/f]
+  + Class [main/b/h]
+  + Fieldref [android/graphics/BitmapFactory$Options.inJustDecodeBounds Z]
+  + Fieldref [android/graphics/BitmapFactory$Options.inSampleSize I]
+  + Fieldref [android/graphics/BitmapFactory$Options.outHeight I]
+  + Fieldref [android/graphics/BitmapFactory$Options.outWidth I]
+  + Fieldref [main/b/b.a Lmain/b/f;]
+  + Fieldref [main/b/b.b Lmain/b/a;]
+  + Fieldref [main/b/b.c Ljava/util/concurrent/ExecutorService;]
+  + Fieldref [main/b/b.d Landroid/os/Handler;]
+  + Fieldref [main/b/b.e I]
+  + Fieldref [main/b/b.f Ljava/util/Map;]
+  + Fieldref [main/b/d.a Ljava/lang/String;]
+  + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+  + Methodref [android/graphics/BitmapFactory.decodeStream (Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;]
+  + Methodref [android/graphics/BitmapFactory$Options.<init> ()V]
+  + Methodref [android/os/Handler.<init> ()V]
+  + Methodref [android/widget/ImageView.setImageBitmap (Landroid/graphics/Bitmap;)V]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [java/io/FileInputStream.<init> (Ljava/io/File;)V]
+  + Methodref [java/io/FileInputStream.close ()V]
+  + Methodref [java/io/FileOutputStream.<init> (Ljava/io/File;)V]
+  + Methodref [java/io/IOException.printStackTrace ()V]
+  + Methodref [java/io/OutputStream.close ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+  + Methodref [java/lang/Throwable.printStackTrace ()V]
+  + Methodref [java/net/HttpURLConnection.disconnect ()V]
+  + Methodref [java/net/HttpURLConnection.getInputStream ()Ljava/io/InputStream;]
+  + Methodref [java/net/HttpURLConnection.setConnectTimeout (I)V]
+  + Methodref [java/net/HttpURLConnection.setInstanceFollowRedirects (Z)V]
+  + Methodref [java/net/HttpURLConnection.setReadTimeout (I)V]
+  + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+  + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+  + Methodref [java/util/Collections.synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+  + Methodref [java/util/WeakHashMap.<init> ()V]
+  + Methodref [java/util/concurrent/Executors.newFixedThreadPool (I)Ljava/util/concurrent/ExecutorService;]
+  + Methodref [main/b/a.<init> (Landroid/content/Context;)V]
+  + Methodref [main/b/a.a ()V]
+  + Methodref [main/b/a.a (Ljava/lang/String;)Ljava/io/File;]
+  + Methodref [main/b/b.a (Ljava/io/File;)Landroid/graphics/Bitmap;]
+  + Methodref [main/b/b.a (Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Methodref [main/b/b.b (Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Methodref [main/b/d.<init> (Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Methodref [main/b/e.<init> (Lmain/b/b;Lmain/b/d;)V]
+  + Methodref [main/b/f.<init> ()V]
+  + Methodref [main/b/f.a ()V]
+  + Methodref [main/b/f.a (Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Methodref [main/b/h.a (Ljava/io/InputStream;Ljava/io/OutputStream;)V]
+  + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/concurrent/ExecutorService.submit (Ljava/lang/Runnable;)Ljava/util/concurrent/Future;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Ljava/io/File;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + NameAndType [<init> (Lmain/b/b;Lmain/b/d;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a (Ljava/io/File;)Landroid/graphics/Bitmap;]
+  + NameAndType [a (Ljava/io/InputStream;Ljava/io/OutputStream;)V]
+  + NameAndType [a (Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + NameAndType [a (Ljava/lang/String;)Ljava/io/File;]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [a Lmain/b/f;]
+  + NameAndType [b (Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + NameAndType [b Landroid/widget/ImageView;]
+  + NameAndType [b Lmain/b/a;]
+  + NameAndType [c Ljava/util/concurrent/ExecutorService;]
+  + NameAndType [close ()V]
+  + NameAndType [d Landroid/os/Handler;]
+  + NameAndType [decodeStream (Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;]
+  + NameAndType [disconnect ()V]
+  + NameAndType [e I]
+  + NameAndType [equals (Ljava/lang/Object;)Z]
+  + NameAndType [f Ljava/util/Map;]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getInputStream ()Ljava/io/InputStream;]
+  + NameAndType [inJustDecodeBounds Z]
+  + NameAndType [inSampleSize I]
+  + NameAndType [newFixedThreadPool (I)Ljava/util/concurrent/ExecutorService;]
+  + NameAndType [openConnection ()Ljava/net/URLConnection;]
+  + NameAndType [outHeight I]
+  + NameAndType [outWidth I]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [setConnectTimeout (I)V]
+  + NameAndType [setImageBitmap (Landroid/graphics/Bitmap;)V]
+  + NameAndType [setImageResource (I)V]
+  + NameAndType [setInstanceFollowRedirects (Z)V]
+  + NameAndType [setReadTimeout (I)V]
+  + NameAndType [submit (Ljava/lang/Runnable;)Ljava/util/concurrent/Future;]
+  + NameAndType [synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+  + Utf8 [()Ljava/io/InputStream;]
+  + Utf8 [()Ljava/net/URLConnection;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/util/concurrent/ExecutorService;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/graphics/Bitmap;)V]
+  + Utf8 [(Ljava/io/File;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Ljava/io/File;)V]
+  + Utf8 [(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Ljava/io/InputStream;Ljava/io/OutputStream;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;]
+  + Utf8 [(Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Ljava/lang/String;)Ljava/io/File;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Utf8 [(Ljava/util/Map;)Ljava/util/Map;]
+  + Utf8 [(Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Utf8 [(Lmain/b/b;Lmain/b/d;)V]
+  + Utf8 [(Lmain/b/d;)Z]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [I]
+  + Utf8 [Landroid/os/Handler;]
+  + Utf8 [Landroid/widget/ImageView;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/Map;]
+  + Utf8 [Ljava/util/concurrent/ExecutorService;]
+  + Utf8 [Lmain/b/a;]
+  + Utf8 [Lmain/b/f;]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/graphics/BitmapFactory]
+  + Utf8 [android/graphics/BitmapFactory$Options]
+  + Utf8 [android/os/Handler]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [close]
+  + Utf8 [d]
+  + Utf8 [decodeStream]
+  + Utf8 [disconnect]
+  + Utf8 [e]
+  + Utf8 [equals]
+  + Utf8 [f]
+  + Utf8 [get]
+  + Utf8 [getInputStream]
+  + Utf8 [inJustDecodeBounds]
+  + Utf8 [inSampleSize]
+  + Utf8 [java/io/FileInputStream]
+  + Utf8 [java/io/FileNotFoundException]
+  + Utf8 [java/io/FileOutputStream]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/OutputStream]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/OutOfMemoryError]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/net/HttpURLConnection]
+  + Utf8 [java/net/URL]
+  + Utf8 [java/util/Collections]
+  + Utf8 [java/util/Map]
+  + Utf8 [java/util/WeakHashMap]
+  + Utf8 [java/util/concurrent/ExecutorService]
+  + Utf8 [java/util/concurrent/Executors]
+  + Utf8 [main/b/a]
+  + Utf8 [main/b/b]
+  + Utf8 [main/b/d]
+  + Utf8 [main/b/e]
+  + Utf8 [main/b/f]
+  + Utf8 [main/b/h]
+  + Utf8 [newFixedThreadPool]
+  + Utf8 [openConnection]
+  + Utf8 [outHeight]
+  + Utf8 [outWidth]
+  + Utf8 [printStackTrace]
+  + Utf8 [put]
+  + Utf8 [setConnectTimeout]
+  + Utf8 [setImageBitmap]
+  + Utf8 [setImageResource]
+  + Utf8 [setInstanceFollowRedirects]
+  + Utf8 [setReadTimeout]
+  + Utf8 [submit]
+  + Utf8 [synchronizedMap]
+
+Fields (count = 6):
+  + Field:        a Lmain/b/f;
+    Access flags: 0x0
+      = main.b.f a
+  + Field:        b Lmain/b/a;
+    Access flags: 0x0
+      = main.b.a b
+  + Field:        f Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map f
+  + Field:        c Ljava/util/concurrent/ExecutorService;
+    Access flags: 0x0
+      = java.util.concurrent.ExecutorService c
+  + Field:        d Landroid/os/Handler;
+    Access flags: 0x0
+      = android.os.Handler d
+  + Field:        e I
+    Access flags: 0x10
+      = final int e
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [2130837505]
+
+Methods (count = 8):
+  - Method:       <init>(Landroid/content/Context;)V
+    Access flags: 0x1
+      = public b(android.content.Context)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 67, locals = 2, stack = 4):
+      [0] aload_0 v0
+      [1] invokespecial #50
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] new #26
+        + Class [main/b/f]
+      [8] dup
+      [9] invokespecial #71
+        + Methodref [main/b/f.<init> ()V]
+      [12] putfield #32
+        + Fieldref [main/b/b.a Lmain/b/f;]
+      [15] aload_0 v0
+      [16] new #19
+        + Class [java/util/WeakHashMap]
+      [19] dup
+      [20] invokespecial #61
+        + Methodref [java/util/WeakHashMap.<init> ()V]
+      [23] invokestatic #60
+        + Methodref [java/util/Collections.synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+      [26] putfield #37
+        + Fieldref [main/b/b.f Ljava/util/Map;]
+      [29] aload_0 v0
+      [30] new #4
+        + Class [android/os/Handler]
+      [33] dup
+      [34] invokespecial #42
+        + Methodref [android/os/Handler.<init> ()V]
+      [37] putfield #35
+        + Fieldref [main/b/b.d Landroid/os/Handler;]
+      [40] aload_0 v0
+      [41] ldc #1
+        + Integer [2130837505]
+      [43] putfield #36
+        + Fieldref [main/b/b.e I]
+      [46] aload_0 v0
+      [47] new #22
+        + Class [main/b/a]
+      [50] dup
+      [51] aload_1 v1
+      [52] invokespecial #63
+        + Methodref [main/b/a.<init> (Landroid/content/Context;)V]
+      [55] putfield #33
+        + Fieldref [main/b/b.b Lmain/b/a;]
+      [58] aload_0 v0
+      [59] iconst_5
+      [60] invokestatic #62
+        + Methodref [java/util/concurrent/Executors.newFixedThreadPool (I)Ljava/util/concurrent/ExecutorService;]
+      [63] putfield #34
+        + Fieldref [main/b/b.c Ljava/util/concurrent/ExecutorService;]
+      [66] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;Landroid/widget/ImageView;)V
+    Access flags: 0x1
+      = public void a(java.lang.String,android.widget.ImageView)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 4, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #37
+        + Fieldref [main/b/b.f Ljava/util/Map;]
+      [4] aload_2 v2
+      [5] aload_1 v1
+      [6] invokeinterface #76, 768
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [11] pop
+      [12] aload_0 v0
+      [13] getfield #32
+        + Fieldref [main/b/b.a Lmain/b/f;]
+      [16] aload_1 v1
+      [17] invokevirtual #73
+        + Methodref [main/b/f.a (Ljava/lang/String;)Landroid/graphics/Bitmap;]
+      [20] astore_3 v3
+      [21] aload_3 v3
+      [22] ifnull +11 (target=33)
+      [25] aload_2 v2
+      [26] aload_3 v3
+      [27] invokevirtual #43
+        + Methodref [android/widget/ImageView.setImageBitmap (Landroid/graphics/Bitmap;)V]
+      [30] goto +15 (target=45)
+      [33] aload_0 v0
+      [34] aload_1 v1
+      [35] aload_2 v2
+      [36] invokespecial #68
+        + Methodref [main/b/b.b (Ljava/lang/String;Landroid/widget/ImageView;)V]
+      [39] aload_2 v2
+      [40] ldc #1
+        + Integer [2130837505]
+      [42] invokevirtual #44
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Ljava/lang/String;Landroid/widget/ImageView;)V
+    Access flags: 0x2
+      = private void b(java.lang.String,android.widget.ImageView)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 4, stack = 5):
+      [0] new #24
+        + Class [main/b/d]
+      [3] dup
+      [4] aload_0 v0
+      [5] aload_1 v1
+      [6] aload_2 v2
+      [7] invokespecial #69
+        + Methodref [main/b/d.<init> (Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V]
+      [10] astore_3 v3
+      [11] aload_0 v0
+      [12] getfield #34
+        + Fieldref [main/b/b.c Ljava/util/concurrent/ExecutorService;]
+      [15] new #25
+        + Class [main/b/e]
+      [18] dup
+      [19] aload_0 v0
+      [20] aload_3 v3
+      [21] invokespecial #70
+        + Methodref [main/b/e.<init> (Lmain/b/b;Lmain/b/d;)V]
+      [24] invokeinterface #77, 512
+        + InterfaceMethodref [java/util/concurrent/ExecutorService.submit (Ljava/lang/Runnable;)Ljava/util/concurrent/Future;]
+      [29] pop
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    Access flags: 0x2
+      = private android.graphics.Bitmap a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 134, locals = 9, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #33
+        + Fieldref [main/b/b.b Lmain/b/a;]
+      [4] aload_1 v1
+      [5] invokevirtual #65
+        + Methodref [main/b/a.a (Ljava/lang/String;)Ljava/io/File;]
+      [8] astore_2 v2
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] invokespecial #66
+        + Methodref [main/b/b.a (Ljava/io/File;)Landroid/graphics/Bitmap;]
+      [14] astore_3 v3
+      [15] aload_3 v3
+      [16] ifnull +5 (target=21)
+      [19] aload_3 v3
+      [20] areturn
+      [21] aconst_null
+      [22] astore v4
+      [24] new #16
+        + Class [java/net/URL]
+      [27] dup
+      [28] aload_1 v1
+      [29] invokespecial #58
+        + Methodref [java/net/URL.<init> (Ljava/lang/String;)V]
+      [32] astore v5
+      [34] aload v5
+      [36] invokevirtual #59
+        + Methodref [java/net/URL.openConnection ()Ljava/net/URLConnection;]
+      [39] checkcast #15
+        + Class [java/net/HttpURLConnection]
+      [42] astore v6
+      [44] aload v6
+      [46] sipush 30000
+      [49] invokevirtual #55
+        + Methodref [java/net/HttpURLConnection.setConnectTimeout (I)V]
+      [52] aload v6
+      [54] sipush 30000
+      [57] invokevirtual #57
+        + Methodref [java/net/HttpURLConnection.setReadTimeout (I)V]
+      [60] aload v6
+      [62] iconst_1
+      [63] invokevirtual #56
+        + Methodref [java/net/HttpURLConnection.setInstanceFollowRedirects (Z)V]
+      [66] aload v6
+      [68] invokevirtual #54
+        + Methodref [java/net/HttpURLConnection.getInputStream ()Ljava/io/InputStream;]
+      [71] astore v7
+      [73] new #8
+        + Class [java/io/FileOutputStream]
+      [76] dup
+      [77] aload_2 v2
+      [78] invokespecial #47
+        + Methodref [java/io/FileOutputStream.<init> (Ljava/io/File;)V]
+      [81] astore v8
+      [83] aload v7
+      [85] aload v8
+      [87] invokestatic #74
+        + Methodref [main/b/h.a (Ljava/io/InputStream;Ljava/io/OutputStream;)V]
+      [90] aload v8
+      [92] invokevirtual #49
+        + Methodref [java/io/OutputStream.close ()V]
+      [95] aload v6
+      [97] invokevirtual #53
+        + Methodref [java/net/HttpURLConnection.disconnect ()V]
+      [100] aload_0 v0
+      [101] aload_2 v2
+      [102] invokespecial #66
+        + Methodref [main/b/b.a (Ljava/io/File;)Landroid/graphics/Bitmap;]
+      [105] astore v4
+      [107] aload v4
+      [109] areturn
+      [110] astore v4
+      [112] aload v4
+      [114] invokevirtual #52
+        + Methodref [java/lang/Throwable.printStackTrace ()V]
+      [117] aload v4
+      [119] instanceof #12
+        + Class [java/lang/OutOfMemoryError]
+      [122] ifeq +10 (target=132)
+      [125] aload_0 v0
+      [126] getfield #32
+        + Fieldref [main/b/b.a Lmain/b/f;]
+      [129] invokevirtual #72
+        + Methodref [main/b/f.a ()V]
+      [132] aconst_null
+      [133] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (21 -> 109: 110):
+      + Class [java/lang/Throwable]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/io/File;)Landroid/graphics/Bitmap;
+    Access flags: 0x2
+      = private android.graphics.Bitmap a(java.io.File)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 149, locals = 11, stack = 3):
+      [0] new #3
+        + Class [android/graphics/BitmapFactory$Options]
+      [3] dup
+      [4] invokespecial #41
+        + Methodref [android/graphics/BitmapFactory$Options.<init> ()V]
+      [7] astore_2 v2
+      [8] aload_2 v2
+      [9] iconst_1
+      [10] putfield #28
+        + Fieldref [android/graphics/BitmapFactory$Options.inJustDecodeBounds Z]
+      [13] new #6
+        + Class [java/io/FileInputStream]
+      [16] dup
+      [17] aload_1 v1
+      [18] invokespecial #45
+        + Methodref [java/io/FileInputStream.<init> (Ljava/io/File;)V]
+      [21] astore_3 v3
+      [22] aload_3 v3
+      [23] aconst_null
+      [24] aload_2 v2
+      [25] invokestatic #40
+        + Methodref [android/graphics/BitmapFactory.decodeStream (Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;]
+      [28] pop
+      [29] aload_3 v3
+      [30] invokevirtual #46
+        + Methodref [java/io/FileInputStream.close ()V]
+      [33] bipush 70
+      [35] istore v4
+      [37] aload_2 v2
+      [38] getfield #31
+        + Fieldref [android/graphics/BitmapFactory$Options.outWidth I]
+      [41] istore v5
+      [43] aload_2 v2
+      [44] getfield #30
+        + Fieldref [android/graphics/BitmapFactory$Options.outHeight I]
+      [47] istore v6
+      [49] iconst_1
+      [50] istore v7
+      [52] iload v5
+      [54] iconst_2
+      [55] idiv
+      [56] bipush 70
+      [58] ificmplt +36 (target=94)
+      [61] iload v6
+      [63] iconst_2
+      [64] idiv
+      [65] bipush 70
+      [67] ificmpge +6 (target=73)
+      [70] goto +24 (target=94)
+      [73] iload v5
+      [75] iconst_2
+      [76] idiv
+      [77] istore v5
+      [79] iload v6
+      [81] iconst_2
+      [82] idiv
+      [83] istore v6
+      [85] iload v7
+      [87] iconst_2
+      [88] imul
+      [89] istore v7
+      [91] goto -39 (target=52)
+      [94] new #3
+        + Class [android/graphics/BitmapFactory$Options]
+      [97] dup
+      [98] invokespecial #41
+        + Methodref [android/graphics/BitmapFactory$Options.<init> ()V]
+      [101] astore v8
+      [103] aload v8
+      [105] iload v7
+      [107] putfield #29
+        + Fieldref [android/graphics/BitmapFactory$Options.inSampleSize I]
+      [110] new #6
+        + Class [java/io/FileInputStream]
+      [113] dup
+      [114] aload_1 v1
+      [115] invokespecial #45
+        + Methodref [java/io/FileInputStream.<init> (Ljava/io/File;)V]
+      [118] astore v9
+      [120] aload v9
+      [122] aconst_null
+      [123] aload v8
+      [125] invokestatic #40
+        + Methodref [android/graphics/BitmapFactory.decodeStream (Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;]
+      [128] astore v10
+      [130] aload v9
+      [132] invokevirtual #46
+        + Methodref [java/io/FileInputStream.close ()V]
+      [135] aload v10
+      [137] areturn
+      [138] astore_2 v2
+      [139] goto +8 (target=147)
+      [142] astore_2 v2
+      [143] aload_2 v2
+      [144] invokevirtual #48
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [147] aconst_null
+      [148] areturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 137: 138):
+      + Class [java/io/FileNotFoundException]
+      - ExceptionInfo (0 -> 137: 142):
+      + Class [java/io/IOException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lmain/b/d;)Z
+    Access flags: 0x0
+      = boolean a(main.b.d)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 36, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #37
+        + Fieldref [main/b/b.f Ljava/util/Map;]
+      [4] aload_1 v1
+      [5] getfield #39
+        + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+      [8] invokeinterface #75, 512
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [13] checkcast #13
+        + Class [java/lang/String]
+      [16] astore_2 v2
+      [17] aload_2 v2
+      [18] ifnull +14 (target=32)
+      [21] aload_2 v2
+      [22] aload_1 v1
+      [23] getfield #38
+        + Fieldref [main/b/d.a Ljava/lang/String;]
+      [26] invokevirtual #51
+        + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
+      [29] ifne +5 (target=34)
+      [32] iconst_1
+      [33] ireturn
+      [34] iconst_0
+      [35] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #32
+        + Fieldref [main/b/b.a Lmain/b/f;]
+      [4] invokevirtual #72
+        + Methodref [main/b/f.a ()V]
+      [7] aload_0 v0
+      [8] getfield #33
+        + Fieldref [main/b/b.b Lmain/b/a;]
+      [11] invokevirtual #64
+        + Methodref [main/b/a.a ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;
+    Access flags: 0x1008
+      = static synthetic android.graphics.Bitmap a(main.b.b,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #67
+        + Methodref [main/b/b.a (Ljava/lang/String;)Landroid/graphics/Bitmap;]
+      [5] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/c
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.b.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 47):
+  + Integer [2130837505]
+  + Class [android/widget/ImageView]
+  + Class [java/lang/Object]
+  + Class [java/lang/Runnable]
+  + Class [main/b/b]
+  + Class [main/b/c]
+  + Class [main/b/d]
+  + Fieldref [main/b/c.a Landroid/graphics/Bitmap;]
+  + Fieldref [main/b/c.b Lmain/b/d;]
+  + Fieldref [main/b/c.c Lmain/b/b;]
+  + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+  + Methodref [android/widget/ImageView.setImageBitmap (Landroid/graphics/Bitmap;)V]
+  + Methodref [android/widget/ImageView.setImageResource (I)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [main/b/b.a (Lmain/b/d;)Z]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lmain/b/d;)Z]
+  + NameAndType [a Landroid/graphics/Bitmap;]
+  + NameAndType [b Landroid/widget/ImageView;]
+  + NameAndType [b Lmain/b/d;]
+  + NameAndType [c Lmain/b/b;]
+  + NameAndType [setImageBitmap (Landroid/graphics/Bitmap;)V]
+  + NameAndType [setImageResource (I)V]
+  + Utf8 [()V]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/graphics/Bitmap;)V]
+  + Utf8 [(Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V]
+  + Utf8 [(Lmain/b/d;)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/graphics/Bitmap;]
+  + Utf8 [Landroid/widget/ImageView;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [Lmain/b/d;]
+  + Utf8 [a]
+  + Utf8 [android/widget/ImageView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [main/b/b]
+  + Utf8 [main/b/c]
+  + Utf8 [main/b/d]
+  + Utf8 [run]
+  + Utf8 [setImageBitmap]
+  + Utf8 [setImageResource]
+
+Fields (count = 3):
+  + Field:        a Landroid/graphics/Bitmap;
+    Access flags: 0x0
+      = android.graphics.Bitmap a
+  + Field:        b Lmain/b/d;
+    Access flags: 0x0
+      = main.b.d b
+  + Field:        c Lmain/b/b;
+    Access flags: 0x1010
+      = final synthetic main.b.b c
+
+Methods (count = 2):
+  - Method:       <init>(Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V
+    Access flags: 0x1
+      = public c(main.b.b,android.graphics.Bitmap,main.b.d)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [main/b/c.c Lmain/b/b;]
+      [5] aload_0 v0
+      [6] invokespecial #14
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #8
+        + Fieldref [main/b/c.a Landroid/graphics/Bitmap;]
+      [14] aload_0 v0
+      [15] aload_3 v3
+      [16] putfield #9
+        + Fieldref [main/b/c.b Lmain/b/d;]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 52, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [main/b/c.c Lmain/b/b;]
+      [4] aload_0 v0
+      [5] getfield #9
+        + Fieldref [main/b/c.b Lmain/b/d;]
+      [8] invokevirtual #15
+        + Methodref [main/b/b.a (Lmain/b/d;)Z]
+      [11] ifeq +4 (target=15)
+      [14] return
+      [15] aload_0 v0
+      [16] getfield #8
+        + Fieldref [main/b/c.a Landroid/graphics/Bitmap;]
+      [19] ifnull +20 (target=39)
+      [22] aload_0 v0
+      [23] getfield #9
+        + Fieldref [main/b/c.b Lmain/b/d;]
+      [26] getfield #11
+        + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+      [29] aload_0 v0
+      [30] getfield #8
+        + Fieldref [main/b/c.a Landroid/graphics/Bitmap;]
+      [33] invokevirtual #12
+        + Methodref [android/widget/ImageView.setImageBitmap (Landroid/graphics/Bitmap;)V]
+      [36] goto +15 (target=51)
+      [39] aload_0 v0
+      [40] getfield #9
+        + Fieldref [main/b/c.b Lmain/b/d;]
+      [43] getfield #11
+        + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+      [46] ldc #1
+        + Integer [2130837505]
+      [48] invokevirtual #13
+        + Methodref [android/widget/ImageView.setImageResource (I)V]
+      [51] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/d
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.b.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 23):
+  + Class [java/lang/Object]
+  + Class [main/b/d]
+  + Fieldref [main/b/d.a Ljava/lang/String;]
+  + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+  + Fieldref [main/b/d.c Lmain/b/b;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b Landroid/widget/ImageView;]
+  + NameAndType [c Lmain/b/b;]
+  + Utf8 [()V]
+  + Utf8 [(Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/ImageView;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [main/b/d]
+
+Fields (count = 3):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String a
+  + Field:        b Landroid/widget/ImageView;
+    Access flags: 0x1
+      = public android.widget.ImageView b
+  + Field:        c Lmain/b/b;
+    Access flags: 0x1010
+      = final synthetic main.b.b c
+
+Methods (count = 1):
+  - Method:       <init>(Lmain/b/b;Ljava/lang/String;Landroid/widget/ImageView;)V
+    Access flags: 0x1
+      = public d(main.b.b,java.lang.String,android.widget.ImageView)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [main/b/d.c Lmain/b/b;]
+      [5] aload_0 v0
+      [6] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #3
+        + Fieldref [main/b/d.a Ljava/lang/String;]
+      [14] aload_0 v0
+      [15] aload_3 v3
+      [16] putfield #4
+        + Fieldref [main/b/d.b Landroid/widget/ImageView;]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/e
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x20
+    = class main.b.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 63):
+  + Class [android/os/Handler]
+  + Class [java/lang/Object]
+  + Class [java/lang/Runnable]
+  + Class [java/lang/Throwable]
+  + Class [main/b/b]
+  + Class [main/b/c]
+  + Class [main/b/d]
+  + Class [main/b/e]
+  + Class [main/b/f]
+  + Fieldref [main/b/b.a Lmain/b/f;]
+  + Fieldref [main/b/b.d Landroid/os/Handler;]
+  + Fieldref [main/b/d.a Ljava/lang/String;]
+  + Fieldref [main/b/e.a Lmain/b/d;]
+  + Fieldref [main/b/e.b Lmain/b/b;]
+  + Methodref [android/os/Handler.post (Ljava/lang/Runnable;)Z]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Throwable.printStackTrace ()V]
+  + Methodref [main/b/b.a (Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Methodref [main/b/b.a (Lmain/b/d;)Z]
+  + Methodref [main/b/c.<init> (Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V]
+  + Methodref [main/b/f.a (Ljava/lang/String;Landroid/graphics/Bitmap;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V]
+  + NameAndType [a (Ljava/lang/String;Landroid/graphics/Bitmap;)V]
+  + NameAndType [a (Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + NameAndType [a (Lmain/b/d;)Z]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [a Lmain/b/d;]
+  + NameAndType [a Lmain/b/f;]
+  + NameAndType [b Lmain/b/b;]
+  + NameAndType [d Landroid/os/Handler;]
+  + NameAndType [post (Ljava/lang/Runnable;)Z]
+  + NameAndType [printStackTrace ()V]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/Runnable;)Z]
+  + Utf8 [(Ljava/lang/String;Landroid/graphics/Bitmap;)V]
+  + Utf8 [(Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V]
+  + Utf8 [(Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Lmain/b/b;Lmain/b/d;)V]
+  + Utf8 [(Lmain/b/d;)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/os/Handler;]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Lmain/b/b;]
+  + Utf8 [Lmain/b/d;]
+  + Utf8 [Lmain/b/f;]
+  + Utf8 [a]
+  + Utf8 [android/os/Handler]
+  + Utf8 [b]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [main/b/b]
+  + Utf8 [main/b/c]
+  + Utf8 [main/b/d]
+  + Utf8 [main/b/e]
+  + Utf8 [main/b/f]
+  + Utf8 [post]
+  + Utf8 [printStackTrace]
+  + Utf8 [run]
+
+Fields (count = 2):
+  + Field:        a Lmain/b/d;
+    Access flags: 0x0
+      = main.b.d a
+  + Field:        b Lmain/b/b;
+    Access flags: 0x1010
+      = final synthetic main.b.b b
+
+Methods (count = 2):
+  - Method:       <init>(Lmain/b/b;Lmain/b/d;)V
+    Access flags: 0x0
+      = e(main.b.b,main.b.d)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [5] aload_0 v0
+      [6] invokespecial #16
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] aload_0 v0
+      [10] aload_2 v2
+      [11] putfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 101, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [4] aload_0 v0
+      [5] getfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [8] invokevirtual #19
+        + Methodref [main/b/b.a (Lmain/b/d;)Z]
+      [11] ifeq +4 (target=15)
+      [14] return
+      [15] aload_0 v0
+      [16] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [19] aload_0 v0
+      [20] getfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [23] getfield #12
+        + Fieldref [main/b/d.a Ljava/lang/String;]
+      [26] invokestatic #18
+        + Methodref [main/b/b.a (Lmain/b/b;Ljava/lang/String;)Landroid/graphics/Bitmap;]
+      [29] astore_1 v1
+      [30] aload_0 v0
+      [31] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [34] getfield #10
+        + Fieldref [main/b/b.a Lmain/b/f;]
+      [37] aload_0 v0
+      [38] getfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [41] getfield #12
+        + Fieldref [main/b/d.a Ljava/lang/String;]
+      [44] aload_1 v1
+      [45] invokevirtual #21
+        + Methodref [main/b/f.a (Ljava/lang/String;Landroid/graphics/Bitmap;)V]
+      [48] aload_0 v0
+      [49] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [52] aload_0 v0
+      [53] getfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [56] invokevirtual #19
+        + Methodref [main/b/b.a (Lmain/b/d;)Z]
+      [59] ifeq +4 (target=63)
+      [62] return
+      [63] new #6
+        + Class [main/b/c]
+      [66] dup
+      [67] aload_0 v0
+      [68] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [71] aload_1 v1
+      [72] aload_0 v0
+      [73] getfield #13
+        + Fieldref [main/b/e.a Lmain/b/d;]
+      [76] invokespecial #20
+        + Methodref [main/b/c.<init> (Lmain/b/b;Landroid/graphics/Bitmap;Lmain/b/d;)V]
+      [79] astore_2 v2
+      [80] aload_0 v0
+      [81] getfield #14
+        + Fieldref [main/b/e.b Lmain/b/b;]
+      [84] getfield #11
+        + Fieldref [main/b/b.d Landroid/os/Handler;]
+      [87] aload_2 v2
+      [88] invokevirtual #15
+        + Methodref [android/os/Handler.post (Ljava/lang/Runnable;)Z]
+      [91] pop
+      [92] goto +8 (target=100)
+      [95] astore_1 v1
+      [96] aload_1 v1
+      [97] invokevirtual #17
+        + Methodref [java/lang/Throwable.printStackTrace ()V]
+      [100] return
+      Code attribute exceptions (count = 3):
+      - ExceptionInfo (0 -> 14: 95):
+      + Class [java/lang/Throwable]
+      - ExceptionInfo (15 -> 62: 95):
+      + Class [java/lang/Throwable]
+      - ExceptionInfo (63 -> 92: 95):
+      + Class [java/lang/Throwable]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/f
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.b.f extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 162):
+  + Float [1.5]
+  + String [ length=]
+  + String [Clean cache. New size ]
+  + String [MB]
+  + String [MemoryCache]
+  + String [MemoryCache will use up to ]
+  + String [cache size=]
+  + Class [android/graphics/Bitmap]
+  + Class [android/util/Log]
+  + Class [java/lang/NullPointerException]
+  + Class [java/lang/Object]
+  + Class [java/lang/Runtime]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/Throwable]
+  + Class [java/util/Collections]
+  + Class [java/util/Iterator]
+  + Class [java/util/LinkedHashMap]
+  + Class [java/util/Map]
+  + Class [java/util/Map$Entry]
+  + Class [java/util/Set]
+  + Class [main/b/f]
+  + Long [4]
+  + Long [1000000]
+  + Double [1024.0]
+  + Fieldref [main/b/f.a Ljava/util/Map;]
+  + Fieldref [main/b/f.b J]
+  + Fieldref [main/b/f.c J]
+  + Methodref [android/graphics/Bitmap.getHeight ()I]
+  + Methodref [android/graphics/Bitmap.getRowBytes ()I]
+  + Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [java/lang/NullPointerException.printStackTrace ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+  + Methodref [java/lang/Runtime.maxMemory ()J]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/Throwable.printStackTrace ()V]
+  + Methodref [java/util/Collections.synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+  + Methodref [java/util/LinkedHashMap.<init> (IFZ)V]
+  + Methodref [main/b/f.a (J)V]
+  + Methodref [main/b/f.a (Landroid/graphics/Bitmap;)J]
+  + Methodref [main/b/f.b ()V]
+  + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+  + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Iterator.remove ()V]
+  + InterfaceMethodref [java/util/Map.clear ()V]
+  + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/Map.entrySet ()Ljava/util/Set;]
+  + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.size ()I]
+  + InterfaceMethodref [java/util/Map$Entry.getValue ()Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Set.iterator ()Ljava/util/Iterator;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (IFZ)V]
+  + NameAndType [a (J)V]
+  + NameAndType [a (Landroid/graphics/Bitmap;)J]
+  + NameAndType [a Ljava/util/Map;]
+  + NameAndType [append (D)Ljava/lang/StringBuilder;]
+  + NameAndType [append (I)Ljava/lang/StringBuilder;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()V]
+  + NameAndType [b J]
+  + NameAndType [c J]
+  + NameAndType [clear ()V]
+  + NameAndType [containsKey (Ljava/lang/Object;)Z]
+  + NameAndType [entrySet ()Ljava/util/Set;]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getHeight ()I]
+  + NameAndType [getRowBytes ()I]
+  + NameAndType [getRuntime ()Ljava/lang/Runtime;]
+  + NameAndType [getValue ()Ljava/lang/Object;]
+  + NameAndType [hasNext ()Z]
+  + NameAndType [i (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [iterator ()Ljava/util/Iterator;]
+  + NameAndType [maxMemory ()J]
+  + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [remove ()V]
+  + NameAndType [size ()I]
+  + NameAndType [synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [ length=]
+  + Utf8 [()I]
+  + Utf8 [()J]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/Runtime;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Ljava/util/Iterator;]
+  + Utf8 [()Ljava/util/Set;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(D)Ljava/lang/StringBuilder;]
+  + Utf8 [(I)Ljava/lang/StringBuilder;]
+  + Utf8 [(IFZ)V]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(J)V]
+  + Utf8 [(Landroid/graphics/Bitmap;)J]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;Landroid/graphics/Bitmap;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/util/Map;)Ljava/util/Map;]
+  + Utf8 [<init>]
+  + Utf8 [Clean cache. New size ]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Ljava/util/Map;]
+  + Utf8 [MB]
+  + Utf8 [MemoryCache]
+  + Utf8 [MemoryCache will use up to ]
+  + Utf8 [a]
+  + Utf8 [android/graphics/Bitmap]
+  + Utf8 [android/util/Log]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [cache size=]
+  + Utf8 [clear]
+  + Utf8 [containsKey]
+  + Utf8 [entrySet]
+  + Utf8 [get]
+  + Utf8 [getHeight]
+  + Utf8 [getRowBytes]
+  + Utf8 [getRuntime]
+  + Utf8 [getValue]
+  + Utf8 [hasNext]
+  + Utf8 [i]
+  + Utf8 [iterator]
+  + Utf8 [java/lang/NullPointerException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runtime]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [java/util/Collections]
+  + Utf8 [java/util/Iterator]
+  + Utf8 [java/util/LinkedHashMap]
+  + Utf8 [java/util/Map]
+  + Utf8 [java/util/Map$Entry]
+  + Utf8 [java/util/Set]
+  + Utf8 [main/b/f]
+  + Utf8 [maxMemory]
+  + Utf8 [next]
+  + Utf8 [printStackTrace]
+  + Utf8 [put]
+  + Utf8 [remove]
+  + Utf8 [size]
+  + Utf8 [synchronizedMap]
+  + Utf8 [toString]
+
+Fields (count = 3):
+  + Field:        a Ljava/util/Map;
+    Access flags: 0x2
+      = private java.util.Map a
+  + Field:        b J
+    Access flags: 0x2
+      = private long b
+  + Field:        c J
+    Access flags: 0x2
+      = private long c
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public f()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 50, locals = 1, stack = 6):
+      [0] aload_0 v0
+      [1] invokespecial #35
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] new #17
+        + Class [java/util/LinkedHashMap]
+      [8] dup
+      [9] bipush 10
+      [11] ldc #1
+        + Float [1.5]
+      [13] iconst_1
+      [14] invokespecial #46
+        + Methodref [java/util/LinkedHashMap.<init> (IFZ)V]
+      [17] invokestatic #45
+        + Methodref [java/util/Collections.synchronizedMap (Ljava/util/Map;)Ljava/util/Map;]
+      [20] putfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [23] aload_0 v0
+      [24] lconst_0
+      [25] putfield #29
+        + Fieldref [main/b/f.b J]
+      [28] aload_0 v0
+      [29] ldc2_w #24
+        + Long [1000000]
+      [32] putfield #30
+        + Fieldref [main/b/f.c J]
+      [35] aload_0 v0
+      [36] invokestatic #36
+        + Methodref [java/lang/Runtime.getRuntime ()Ljava/lang/Runtime;]
+      [39] invokevirtual #37
+        + Methodref [java/lang/Runtime.maxMemory ()J]
+      [42] ldc2_w #22
+        + Long [4]
+      [45] ldiv
+      [46] invokevirtual #47
+        + Methodref [main/b/f.a (J)V]
+      [49] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(J)V
+    Access flags: 0x1
+      = public void a(long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 48, locals = 3, stack = 6):
+      [0] aload_0 v0
+      [1] lload_1 v1
+      [2] putfield #30
+        + Fieldref [main/b/f.c J]
+      [5] ldc #5
+        + String [MemoryCache]
+      [7] new #13
+        + Class [java/lang/StringBuilder]
+      [10] dup
+      [11] invokespecial #38
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [14] ldc #6
+        + String [MemoryCache will use up to ]
+      [16] invokevirtual #42
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [19] aload_0 v0
+      [20] getfield #30
+        + Fieldref [main/b/f.c J]
+      [23] l2d
+      [24] ldc2_w #26
+        + Double [1024.0]
+      [27] ddiv
+      [28] ldc2_w #26
+        + Double [1024.0]
+      [31] ddiv
+      [32] invokevirtual #39
+        + Methodref [java/lang/StringBuilder.append (D)Ljava/lang/StringBuilder;]
+      [35] ldc #4
+        + String [MB]
+      [37] invokevirtual #42
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [40] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [43] invokestatic #33
+        + Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [46] pop
+      [47] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;)Landroid/graphics/Bitmap;
+    Access flags: 0x1
+      = public android.graphics.Bitmap a(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 36, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [4] aload_1 v1
+      [5] invokeinterface #54, 512
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [10] ifne +5 (target=15)
+      [13] aconst_null
+      [14] areturn
+      [15] aload_0 v0
+      [16] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [19] aload_1 v1
+      [20] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [25] checkcast #8
+        + Class [android/graphics/Bitmap]
+      [28] areturn
+      [29] astore_2 v2
+      [30] aload_2 v2
+      [31] invokevirtual #34
+        + Methodref [java/lang/NullPointerException.printStackTrace ()V]
+      [34] aconst_null
+      [35] areturn
+      Code attribute exceptions (count = 2):
+      - ExceptionInfo (0 -> 14: 29):
+      + Class [java/lang/NullPointerException]
+      - ExceptionInfo (15 -> 28: 29):
+      + Class [java/lang/NullPointerException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljava/lang/String;Landroid/graphics/Bitmap;)V
+    Access flags: 0x1
+      = public void a(java.lang.String,android.graphics.Bitmap)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 78, locals = 4, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [4] aload_1 v1
+      [5] invokeinterface #54, 512
+        + InterfaceMethodref [java/util/Map.containsKey (Ljava/lang/Object;)Z]
+      [10] ifeq +29 (target=39)
+      [13] aload_0 v0
+      [14] dup
+      [15] getfield #29
+        + Fieldref [main/b/f.b J]
+      [18] aload_0 v0
+      [19] aload_0 v0
+      [20] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [23] aload_1 v1
+      [24] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [29] checkcast #8
+        + Class [android/graphics/Bitmap]
+      [32] invokevirtual #48
+        + Methodref [main/b/f.a (Landroid/graphics/Bitmap;)J]
+      [35] lsub
+      [36] putfield #29
+        + Fieldref [main/b/f.b J]
+      [39] aload_0 v0
+      [40] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [43] aload_1 v1
+      [44] aload_2 v2
+      [45] invokeinterface #57, 768
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [50] pop
+      [51] aload_0 v0
+      [52] dup
+      [53] getfield #29
+        + Fieldref [main/b/f.b J]
+      [56] aload_0 v0
+      [57] aload_2 v2
+      [58] invokevirtual #48
+        + Methodref [main/b/f.a (Landroid/graphics/Bitmap;)J]
+      [61] ladd
+      [62] putfield #29
+        + Fieldref [main/b/f.b J]
+      [65] aload_0 v0
+      [66] invokespecial #49
+        + Methodref [main/b/f.b ()V]
+      [69] goto +8 (target=77)
+      [72] astore_3 v3
+      [73] aload_3 v3
+      [74] invokevirtual #44
+        + Methodref [java/lang/Throwable.printStackTrace ()V]
+      [77] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 69: 72):
+      + Class [java/lang/Throwable]
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()V
+    Access flags: 0x2
+      = private void b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 171, locals = 3, stack = 5):
+      [0] ldc #5
+        + String [MemoryCache]
+      [2] new #13
+        + Class [java/lang/StringBuilder]
+      [5] dup
+      [6] invokespecial #38
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [9] ldc #7
+        + String [cache size=]
+      [11] invokevirtual #42
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [14] aload_0 v0
+      [15] getfield #29
+        + Fieldref [main/b/f.b J]
+      [18] invokevirtual #41
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [21] ldc #2
+        + String [ length=]
+      [23] invokevirtual #42
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [26] aload_0 v0
+      [27] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [30] invokeinterface #58, 256
+        + InterfaceMethodref [java/util/Map.size ()I]
+      [35] invokevirtual #40
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [38] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [41] invokestatic #33
+        + Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [44] pop
+      [45] aload_0 v0
+      [46] getfield #29
+        + Fieldref [main/b/f.b J]
+      [49] aload_0 v0
+      [50] getfield #30
+        + Fieldref [main/b/f.c J]
+      [53] lcmp
+      [54] ifle +116 (target=170)
+      [57] aload_0 v0
+      [58] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [61] invokeinterface #55, 256
+        + InterfaceMethodref [java/util/Map.entrySet ()Ljava/util/Set;]
+      [66] invokeinterface #60, 256
+        + InterfaceMethodref [java/util/Set.iterator ()Ljava/util/Iterator;]
+      [71] astore_1 v1
+      [72] aload_1 v1
+      [73] invokeinterface #50, 256
+        + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
+      [78] ifeq +59 (target=137)
+      [81] aload_1 v1
+      [82] invokeinterface #51, 256
+        + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
+      [87] checkcast #19
+        + Class [java/util/Map$Entry]
+      [90] astore_2 v2
+      [91] aload_0 v0
+      [92] dup
+      [93] getfield #29
+        + Fieldref [main/b/f.b J]
+      [96] aload_0 v0
+      [97] aload_2 v2
+      [98] invokeinterface #59, 256
+        + InterfaceMethodref [java/util/Map$Entry.getValue ()Ljava/lang/Object;]
+      [103] checkcast #8
+        + Class [android/graphics/Bitmap]
+      [106] invokevirtual #48
+        + Methodref [main/b/f.a (Landroid/graphics/Bitmap;)J]
+      [109] lsub
+      [110] putfield #29
+        + Fieldref [main/b/f.b J]
+      [113] aload_1 v1
+      [114] invokeinterface #52, 256
+        + InterfaceMethodref [java/util/Iterator.remove ()V]
+      [119] aload_0 v0
+      [120] getfield #29
+        + Fieldref [main/b/f.b J]
+      [123] aload_0 v0
+      [124] getfield #30
+        + Fieldref [main/b/f.c J]
+      [127] lcmp
+      [128] ifgt +6 (target=134)
+      [131] goto +6 (target=137)
+      [134] goto -62 (target=72)
+      [137] ldc #5
+        + String [MemoryCache]
+      [139] new #13
+        + Class [java/lang/StringBuilder]
+      [142] dup
+      [143] invokespecial #38
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [146] ldc #3
+        + String [Clean cache. New size ]
+      [148] invokevirtual #42
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [151] aload_0 v0
+      [152] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [155] invokeinterface #58, 256
+        + InterfaceMethodref [java/util/Map.size ()I]
+      [160] invokevirtual #40
+        + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
+      [163] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [166] invokestatic #33
+        + Methodref [android/util/Log.i (Ljava/lang/String;Ljava/lang/String;)I]
+      [169] pop
+      [170] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x1
+      = public void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 23, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #28
+        + Fieldref [main/b/f.a Ljava/util/Map;]
+      [4] invokeinterface #53, 256
+        + InterfaceMethodref [java/util/Map.clear ()V]
+      [9] aload_0 v0
+      [10] lconst_0
+      [11] putfield #29
+        + Fieldref [main/b/f.b J]
+      [14] goto +8 (target=22)
+      [17] astore_1 v1
+      [18] aload_1 v1
+      [19] invokevirtual #34
+        + Methodref [java/lang/NullPointerException.printStackTrace ()V]
+      [22] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (0 -> 14: 17):
+      + Class [java/lang/NullPointerException]
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/graphics/Bitmap;)J
+    Access flags: 0x0
+      = long a(android.graphics.Bitmap)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 17, locals = 2, stack = 2):
+      [0] aload_1 v1
+      [1] ifnonnull +5 (target=6)
+      [4] lconst_0
+      [5] lreturn
+      [6] aload_1 v1
+      [7] invokevirtual #32
+        + Methodref [android/graphics/Bitmap.getRowBytes ()I]
+      [10] aload_1 v1
+      [11] invokevirtual #31
+        + Methodref [android/graphics/Bitmap.getHeight ()I]
+      [14] imul
+      [15] i2l
+      [16] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/g
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.b.g extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 24):
+  + Class [java/lang/Object]
+  + Class [main/b/g]
+  + Fieldref [main/b/g.a J]
+  + Fieldref [main/b/g.b Ljava/lang/String;]
+  + Fieldref [main/b/g.c Ljava/lang/String;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a J]
+  + NameAndType [b Ljava/lang/String;]
+  + NameAndType [c Ljava/lang/String;]
+  + Utf8 [()J]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(JLjava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [main/b/g]
+
+Fields (count = 3):
+  + Field:        a J
+    Access flags: 0x2
+      = private long a
+  + Field:        b Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String b
+  + Field:        c Ljava/lang/String;
+    Access flags: 0x2
+      = private java.lang.String c
+
+Methods (count = 4):
+  - Method:       <init>(JLjava/lang/String;Ljava/lang/String;)V
+    Access flags: 0x1
+      = public g(long,java.lang.String,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 5, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] aload_3 v3
+      [6] putfield #5
+        + Fieldref [main/b/g.c Ljava/lang/String;]
+      [9] aload_0 v0
+      [10] lload_1 v1
+      [11] putfield #3
+        + Fieldref [main/b/g.a J]
+      [14] aload_0 v0
+      [15] aload v4
+      [17] putfield #4
+        + Fieldref [main/b/g.b Ljava/lang/String;]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()J
+    Access flags: 0x1
+      = public long a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #3
+        + Fieldref [main/b/g.a J]
+      [4] lreturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [main/b/g.b Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c()Ljava/lang/String;
+    Access flags: 0x1
+      = public java.lang.String c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [main/b/g.c Ljava/lang/String;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: main/b/h
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+    = target 1.6
+  Access flags:  0x21
+    = public class main.b.h extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 22):
+  + Class [java/io/InputStream]
+  + Class [java/io/OutputStream]
+  + Class [java/lang/Exception]
+  + Class [java/lang/Object]
+  + Class [main/b/h]
+  + Methodref [java/io/InputStream.read ([BII)I]
+  + Methodref [java/io/OutputStream.write ([BII)V]
+  + NameAndType [read ([BII)I]
+  + NameAndType [write ([BII)V]
+  + Utf8 [(Ljava/io/InputStream;Ljava/io/OutputStream;)V]
+  + Utf8 [([BII)I]
+  + Utf8 [([BII)V]
+  + Utf8 [Code]
+  + Utf8 [a]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/io/OutputStream]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [main/b/h]
+  + Utf8 [read]
+  + Utf8 [write]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a(Ljava/io/InputStream;Ljava/io/OutputStream;)V
+    Access flags: 0x9
+      = public static void a(java.io.InputStream,java.io.OutputStream)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 5, stack = 4):
+      [0] sipush 1024
+      [3] istore_2 v2
+      [4] sipush 1024
+      [7] newarray 8
+      [9] astore_3 v3
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] iconst_0
+      [13] sipush 1024
+      [16] invokevirtual #6
+        + Methodref [java/io/InputStream.read ([BII)I]
+      [19] istore v4
+      [21] iload v4
+      [23] iconst_m1
+      [24] ificmpne +6 (target=30)
+      [27] goto +14 (target=41)
+      [30] aload_1 v1
+      [31] aload_3 v3
+      [32] iconst_0
+      [33] iload v4
+      [35] invokevirtual #7
+        + Methodref [java/io/OutputStream.write ([BII)V]
+      [38] goto -28 (target=10)
+      [41] goto +4 (target=45)
+      [44] astore_3 v3
+      [45] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (4 -> 41: 44):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
